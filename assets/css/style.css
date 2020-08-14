@@ -1,0 +1,197 @@
+
+html { 
+    background: url("../images/newmain.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+}
+
+body {
+    /*min-height: 100%*/
+    height: 0;
+}
+
+/*Navigation*/
+
+.bg-custom-green {
+    background-color:#242c10;
+}
+
+.navbar-menu {
+    font-size: 100%;
+    color: white;
+    list-style-type: none;
+    margin-left: auto;
+    letter-spacing: 2px;
+}
+
+.branding {
+    color:white;
+    font-size: 150;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    margin-right: 33%;
+}
+
+.branding:hover {
+    /*color: #242c10;*/
+    color:hsl(81, 100%, 67%);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    /*color: #242c10;*/
+    color:hsl(81, 100%, 67%);
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+/*Containers*/
+
+
+.callout-container {
+    float: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 0px;
+    width: 600px;
+    background: transparent;
+}
+
+.vertical-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.mymaincontainer {
+    height: 100vh;
+    /*background-color: transparent;*/
+    /*background: url("../images/newmain.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;*/
+}
+
+
+/* Jumbotron */
+
+.jumbotron-background {
+    /*background-color: #a02b2b00;*/
+    background-color:transparent;
+    margin-bottom: 50%;
+    margin-top: 25%;
+    height: 480px;
+    color: #000000;
+}
+
+.main-text {
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/*Buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--pnk {
+    color: white;
+    /*background-color: #242c10;*/
+    background-color: #840b5e;
+    border-color: #840b5e;
+    /*border-color: #88c19a;*/
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5px;
+    font-size: xx-large;
+    border-radius: 100px;
+    border-width: medium;
+}
+
+.btn--pnk:hover,
+.btn--pnk:active,
+.btn--pnk:focus
+.btn--pnk:active:focus {
+    color:hsl(81, 100%, 67%);
+    background-color:#242c10;
+    border-color:hsl(81, 100%, 67%);
+}
+
+.btn--footer {
+    color: #212529;
+    background-color: hsl(42deg 74% 87%);
+    border-color: white;
+}
+
+
+/* Footer */
+
+.myfooter {
+    /*background-color:#242c10;*/
+    background-color: transparent;
+    height: 100px;
+    position: static;
+}
+
+.footerheaders {
+    color: white;
+    font-weight: 500;
+    font-size: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#social-media li {
+    display: inline;
+    float: bottom;
+}
+
+#social-media i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color:#f8f9fa;
+}
+
+#social-media a:hover {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color:hsl(81, 100%, 67%);
+}
+
+#social-media i:hover {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color:hsl(81, 100%, 67%);
+}
+
+
+
+
+/*Content containers*/
+
