@@ -151,19 +151,26 @@ body {
 .services-block1 {
     background-color: white;
     padding: 7%;
+    height: 80%;
 }
 
 .services-block2 {
     background-color: white;
     padding: 7%;
+    height: 80%;
     
 }
 
 .services-block3 {
     background-color: white;
     padding: 7%;
+    height: 80%;
 }
 
+.prices {
+    color: black;
+    font-size: 80%;
+}
 
 /* Footer */
 
