@@ -1,0 +1,159 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    
+}
+
+#services-header {
+    color: #242c10;
+}
+
+/*Navigation*/
+
+.bg-custom-green {
+    background-color:#242c10;
+}
+
+.navbar-menu {
+    font-size: 100%;
+    color: white;
+    list-style-type: none;
+    margin-left: auto;
+    letter-spacing: 2px;
+}
+
+.branding {
+    color:white;
+    font-size: 150;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    margin-right: 33%;
+}
+
+.branding:hover {
+    /*color: #242c10;*/
+    color:hsl(81, 100%, 67%);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    /*color: #242c10;*/
+    color:hsl(81, 100%, 67%);
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* Services header */
+
+.myservices {
+    background-color: rgb(243 190 217 / 25%);
+    color: #840b5e;
+}
+
+.services-header {
+    background-color: white;
+    color: black;
+    margin-top: 73px;
+    height: 200px;
+    text-align: center;
+}
+
+.services-title {
+    color: #840b5e;
+}
+
+.ui-menu-color-visits {
+    /*background-color: #840b5e;*/
+    height: 700px;
+    /*color: white;*/
+    text-decoration: none;
+    text-align:justify;
+}
+
+.ui-menu-color-walking {
+    /*background-color: #840b5e;*/
+    height: 700px;
+   /*color: white;*/
+    text-decoration: none;
+    text-align:justify;
+}
+
+.ui-menu-color-boarding{
+    /*background-color: #840b5e;*/
+    height: 700px;
+   /*color: white;*/
+    text-decoration: none;
+    text-align:justify;
+}
+
+
+/* Footer */
+
+.myfooter {
+    background-color:#242c10;
+    /*background-color: transparent;*/
+    height: 200px;
+    position: static;
+}
+
+.footerheader {
+    color: white;
+    font-weight: 500;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 1.5rem;
+}
+
+#social-media li {
+    display: inline;
+    float: bottom;
+}
+
+#social-media i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color:#f8f9fa;
+}
+
+#social-media a:hover {
+    font-size: 120%;
+    color:hsl(81, 100%, 67%);
+}
+
+#social-media i:hover {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color:hsl(81, 100%, 67%);
+}
+
+.btn--footer {
+    color:white;
+    background-color: #840b5e;
+    border-color: #840b5e;
+    font-style: bold;
+}
+
+.btn--footer:hover,
+.btn--footer:active,
+.btn--footer:focus
+.btn--footer:active:focus {
+    color:hsl(81, 100%, 67%);
+    background-color:#242c10;
+    border-color:hsl(90, 100%, 0%);
+}
+
+
+
