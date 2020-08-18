@@ -36,7 +36,6 @@ body {
 }
 
 .branding:hover {
-    /*color: #242c10;*/
     color:hsl(81, 100%, 67%);
     text-decoration: none;
     font-style: italic;
@@ -47,7 +46,6 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    /*color: #242c10;*/
     color:hsl(81, 100%, 67%);
     text-decoration: none;
     font-style: italic;
@@ -55,16 +53,22 @@ body {
 
 /* Services header */
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .service-list-container {
     background-color: rgb(243 190 217 / 25%);
     color: #840b5e;
+    height: 100%;
 }
 
 .services-header {
     background-color: white;
     color: black;
-    margin-top: 73px;
-    height: 350px;
+    margin-top: 50px;
+    height: 170px;
     text-align: center;
 }
 
@@ -74,34 +78,25 @@ body {
 
 .menucontainer {
     justify-content: space-evenly;
-
+    height: 100%;
 }
 
 .menu-visits {
-    /*background-color: #840b5e;*/
-    height: 700px;
-    /*color: white;*/
+    height: 100%;
     text-decoration: none;
-    /*text-align:justify;*/
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .menu-walking {
-    /*background-color: #840b5e;*/
-    height: 700px;
-   /*color: white;*/
+    height: 100%;
     text-decoration: none;
-    /*text-align:justify;*/
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .menu-boarding {
-    /*background-color: #840b5e;*/
-    height: 700px;
-   /*color: white;*/
+    height: 100%;
     text-decoration: none;
-    /*text-align: justify;*/
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .menu-title1 {
@@ -127,21 +122,18 @@ body {
 }
 
 .services-text1 {
-    margin-top: 5%;
     color: #242c10;
     font-size: 100%;
     font-family:cursive;
 }
 
 .services-text2 {
-    margin-top: 5%;
     color: #840b5e;
     font-size: 100%;
     font-family:cursive;
 }
 
 .services-text3 {
-    margin-top: 5%;
     color: hsl(81deg 59% 39%);
     font-size: 100%;
     font-family:cursive;
@@ -176,9 +168,11 @@ body {
 
 .myfooter {
     background-color:#242c10;
-    /*background-color: transparent;*/
-    height: 200px;
-    position: static;
+    height: 110px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footerheader {
@@ -192,7 +186,7 @@ body {
 
 #social-media li {
     display: inline;
-    float: bottom;
+    margin-bottom: 15px;
 }
 
 #social-media i {
@@ -224,15 +218,13 @@ body {
 
 .btn--pnk {
     color: white;
-    /*background-color: #242c10;*/
     background-color: #840b5e;
     border-color: #840b5e;
-    /*border-color: #88c19a;*/
-    padding-top: 3%;
-    padding-bottom: 3%;
+    /*padding-top: 1.5%;
+    padding-bottom: 1.5%;*/
     margin-top: 5px;
     font-size: xx-large;
-    border-radius: 100px;
+    border-radius: 60px;
     border-width: medium;
 }
 
