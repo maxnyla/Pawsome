@@ -67,8 +67,8 @@ body {
 .services-header {
     background-color: white;
     color: black;
-    margin-top: 50px;
-    height: 170px;
+    margin-top: 60px;
+    height: 210px;
     text-align: center;
 }
 
@@ -124,19 +124,19 @@ body {
 .services-text1 {
     color: #242c10;
     font-size: 100%;
-    font-family:cursive;
+    
 }
 
 .services-text2 {
     color: #840b5e;
     font-size: 100%;
-    font-family:cursive;
+    
 }
 
 .services-text3 {
     color: hsl(81deg 59% 39%);
     font-size: 100%;
-    font-family:cursive;
+   
 }
 
 
