@@ -1,0 +1,272 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    
+}
+
+#services-header {
+    color: #242c10;
+}
+
+/*Navigation*/
+
+.bg-custom-green {
+    background-color:#242c10;
+}
+
+.navbar-menu {
+    font-size: 100%;
+    color: white;
+    list-style-type: none;
+    margin-left: auto;
+    letter-spacing: 2px;
+}
+
+.branding {
+    color:white;
+    font-size: 150;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    margin-right: 33%;
+}
+
+.branding:hover {
+    color:hsl(81, 100%, 67%);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:hsl(81, 100%, 67%);
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* Services header */
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.service-list-container {
+    background-color: rgb(243 190 217 / 25%);
+    color: #840b5e;
+    height: 100%;
+}
+
+.services-header {
+    background-color: white;
+    color: black;
+    margin-top: 60px;
+    height: 210px;
+    text-align: center;
+}
+
+.services-title {
+    color: #840b5e;
+}
+
+.menucontainer {
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+.menu-visits {
+    height: 100%;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.menu-walking {
+    height: 100%;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.menu-boarding {
+    height: 100%;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.menu-title1 {
+    text-align: center;
+    text-emphasis-color: white;
+    color: #242c10;
+    margin-bottom: 1rem;
+}
+
+.menu-title2 {
+    text-align: center;
+    text-emphasis-color: white;
+    color:#840b5e;
+    margin-bottom: 1rem;
+}
+
+.menu-title3 {
+    text-align: center;
+    text-emphasis-color: white;
+    color: hsl(81deg 59% 39%);
+    margin-bottom: 1rem;
+}
+
+.mark {
+    background-color: white;
+}
+
+.services-text1 {
+    color: #242c10;
+    font-size: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;   
+}
+
+.services-text2 {
+    color: #840b5e;
+    font-size: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.services-text3 {
+    color: hsl(81deg 59% 39%);
+    font-size: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.services-block1 {
+    background-color: white;
+    padding: 7%;
+    height: 80%;
+}
+
+.services-block2 {
+    background-color: white;
+    padding: 7%;
+    height: 80%;
+    
+}
+
+.services-block3 {
+    background-color: white;
+    padding: 7%;
+    height: 80%;
+}
+
+.prices {
+    color: black;
+    font-size: 80%;
+}
+
+/* Footer */
+
+.myfooter {
+    background-color:#242c10;
+    /*height: 110px;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerheader {
+    color: white;
+    font-weight: 500;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 1.5rem;
+}
+
+#social-media li {
+    display: inline;
+    margin-bottom: 15px;
+}
+
+#social-media i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color:#f8f9fa;
+}
+
+#social-media a:hover {
+    font-size: 120%;
+    color:hsl(81, 100%, 67%);
+}
+
+#social-media i:hover {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color:hsl(81, 100%, 67%);
+}
+
+/*Buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--pnk {
+    color: white;
+    background-color: #840b5e;
+    border-color: #840b5e;
+    /*padding-top: 1.5%;
+    padding-bottom: 1.5%;*/
+    margin-top: 5px;
+    font-size: x-large;
+    border-radius: 60px;
+    border-width: medium;
+}
+
+.btn--green {
+    background-color:#242c10;
+    color: white;
+}
+
+.btn--pnk:hover,
+.btn--pnk:active,
+.btn--pnk:focus
+.btn--pnk:active:focus {
+    color:hsl(81, 100%, 67%);
+    background-color:#242c10;
+    border-color:hsl(81, 100%, 67%);
+}
+
+.btn--footer {
+    color:white;
+    background-color: #840b5e;
+    border-color: #840b5e;
+    font-style: bold;
+}
+
+.btn--footer:hover,
+.btn--footer:active,
+.btn--footer:focus
+.btn--footer:active:focus {
+    color:hsl(81, 100%, 67%);
+    background-color:#242c10;
+    border-color:hsl(90, 100%, 0%);
+}
+
+.newsletter {
+    background-color:white;
+    color:black;
+}
+
+

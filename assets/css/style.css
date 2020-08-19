@@ -1,11 +1,11 @@
 
 html { 
-    background: url("../images/newmain.jpg") no-repeat center center fixed;
+   /* background: url("../images/newmain.jpg") no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
     background-size: cover;
-    min-height: 100%;
+    min-height: 100%;*/
 }
 
 body {
@@ -76,20 +76,20 @@ body {
 }
 
 
+
 .mymaincontainer {
     height: 100vh;
-    /*background-color: transparent;*/
-    /*background: url("../images/newmain.jpg") no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url("../images/newmain.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
     background-size: cover;
-
+    min-height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    position: relative;*/
+    width: 100%;
 }
+
 
 
 /* Jumbotron */
@@ -126,7 +126,7 @@ body {
     padding-top: 3%;
     padding-bottom: 3%;
     margin-top: 5px;
-    font-size: xx-large;
+    font-size: x-large;
     border-radius: 100px;
     border-width: medium;
 }
@@ -166,9 +166,12 @@ body {
 .myfooter {
     /*background-color:#242c10;*/
     background-color: transparent;
-    height: 200px;
-    position: static;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
+
 
 .footerheader {
     color: white;
