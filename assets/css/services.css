@@ -168,8 +168,8 @@ body {
 
 .myfooter {
     background-color:#242c10;
-    height: 110px;
-    position: fixed;
+    /*height: 110px;*/
+    /*position: fixed;*/
     left: 0;
     bottom: 0;
     width: 100%;
