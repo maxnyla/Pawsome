@@ -78,7 +78,7 @@ body {
 
 .menucontainer {
     justify-content: space-evenly;
-    height: 100%;
+    height: 50vh;
 }
 
 .menu-visits {
@@ -103,18 +103,21 @@ body {
     text-align: center;
     text-emphasis-color: white;
     color: #242c10;
+    margin-bottom: 1rem;
 }
 
 .menu-title2 {
     text-align: center;
     text-emphasis-color: white;
     color:#840b5e;
+    margin-bottom: 1rem;
 }
 
 .menu-title3 {
     text-align: center;
     text-emphasis-color: white;
     color: hsl(81deg 59% 39%);
+    margin-bottom: 1rem;
 }
 
 .mark {
@@ -124,19 +127,22 @@ body {
 .services-text1 {
     color: #242c10;
     font-size: 100%;
-    
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;   
 }
 
 .services-text2 {
     color: #840b5e;
     font-size: 100%;
-    
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .services-text3 {
     color: hsl(81deg 59% 39%);
     font-size: 100%;
-   
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -169,7 +175,7 @@ body {
 .myfooter {
     background-color:#242c10;
     /*height: 110px;*/
-    /*position: fixed;*/
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -223,9 +229,14 @@ body {
     /*padding-top: 1.5%;
     padding-bottom: 1.5%;*/
     margin-top: 5px;
-    font-size: xx-large;
+    font-size: x-large;
     border-radius: 60px;
     border-width: medium;
+}
+
+.btn--green {
+    background-color:#242c10;
+    color: white;
 }
 
 .btn--pnk:hover,
