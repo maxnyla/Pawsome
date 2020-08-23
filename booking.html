@@ -9,18 +9,21 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
         <script src="https://kit.fontawesome.com/dadd5c7e02.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/css/booking.css" type="text/css">
 </head>
+
 <body>
-<header>
 <!---------------------- Header (Navbar taken from Bootstrap documentation) ------------------------->
 
     <nav class="navbar custom-nav navbar-expand-md navbar-dark bg-custom-green fixed-top">
         <a class="navbar-brand logo" href="#">
-            <img src="/images/logo.jpg" width="190" height="90" alt="Paw-some" loading="lazy">
+            <img src="assets/images/logo.jpg" width="190" height="60" alt="Paw-some" loading="lazy">
         </a>
-        <a class="branding" href="about.html">Adventures for dogs</a>
+        <!--<a class="branding" href="about.html">Adventures for dogs</a>-->
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -38,38 +41,86 @@
                 <h3><a class="nav-link" href="gallery.html">Gallery</a></h3>
                 </li>
                 <li class="nav-item">
-                <h3><a class="nav-link" href="booking.html">Booking</a></h3>
+                <h3><a class="nav-link active" href="booking.html">Booking</a></h3>
                 </li>
             </ul>
         </div>  
     </nav>
-
 <!----------------------- /.Header ---------------------->
-</header>
 
+<!----------------------- Booking page header ---------------------->
 
+<section class="bookingform-section">
+    <div class="container content-container">
+        <div class="form-section">
+            <form action="/">
+                <div class="banner">
+                    <h1 class="form-wrapper">Pawsome booking form</h1>
+                </div>
+                <div class="item">
+                    <p>Date</p>
+                    <input type="date" name="bdate" />
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="item">
+                    <p>Time</p>
+                    <input type="time" name="name" />
+                    <!---<i class="fas fa-clock"></i>--->
+                </div>
+                <div class="item">
+                    <p>Select service required</p>
+                    <select>
+                        <option value=""></option>
+                        <option value="1">*Please select*</option>
+                        <option value="2">Dog walk</option>
+                        <option value="3">Dog boarding</option>
+                        <option value="4">Home visit</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <p>Description of services required or special requests such as more than one pet, multiple days, etc</p>
+                    <textarea rows="3" ></textarea>
+                </div>
+            
+                <div class="item">
+                    <p>Contact details</p>
+                    <div class="name-item">
+                        <input type="text" name="name" placeholder="First name" />
+                        <input type="text" name="name" placeholder="Last name" />
+                    </div>
+                </div>
+                <div class="item">
+                    <p>Contact Email</p>
+                    <input type="text" name="name"/>
+                </div>
+                <div class="item">
+                    <p>Contact Number</p>
+                    <input type="text" name="name"/>
+                </div>
+                
+                <div class="btn-block">
+                    <button class="btn-booking" type="submit" href="/">SEND</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
 
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    
-</body>
+<!----------------------- /.Booking page header ---------------------->
 <!---------------------- Footer ------------------------->
 <footer>
     <div class="footer myfooter">
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <form>
-                <h6 class="footerheader"><strong>Subscribe to all our news</strong></h6>
-                    <div class="input-group">
-                        <input type="email" class="form-control newsletter" placeholder="Your email address here, please">
-                            <span class="input-group-btn btn--footer">
-                                <button class="btn btn-small no-border-radius btn--footer" type="submit"
+                    <h6 class="footerheader"><strong>Subscribe to our news</strong></h6>
+                        <div class="input-group">
+                            <input type="email" class="form-control newsletter" placeholder="Your email address here, please">
+                                <span class="input-group-btn btn--footer">
+                                    <button class="btn btn-small no-border-radius btn--footer" type="submit"
                                         >Keep in touch!</button>
-                            </span>
-                    </div>
+                                </span>
+                        </div>
                 </form>
             </div>
 
@@ -86,4 +137,13 @@
         </div>
     </div> 
 </footer>
+
+<!---------------------- /.Footer ------------------------>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+</body>
+
 </html>

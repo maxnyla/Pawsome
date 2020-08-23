@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    height: 100%;
+    min-height: 100%;
     
 }
 
@@ -14,12 +14,15 @@ body {
 /*Navigation*/
 
 .bg-custom-green {
-    background-color:#242c10;
+    /*background-color:#242c10;*/
+    /*background-color: #8e8e8e9c;*/
+    background-color: #b9626252;
 }
 
 .navbar-menu {
     font-size: 100%;
-    color: white;
+    /*color: white;*/
+    color: #840b5e;
     list-style-type: none;
     margin-left: auto;
     letter-spacing: 2px;
@@ -42,7 +45,8 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    /*color: white;*/
+    color: #840b5e;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -51,25 +55,16 @@ body {
     font-style: italic;
 }
 
-/* Services header */
+/* Booking header */
 
 .row {
     margin-right: 0;
     margin-left: 0;
 }
 
-.service-list-container {
-    background-color: rgb(243 190 217 / 25%);
-    color: #840b5e;
-    height: 100%;
-}
 
-.services-header {
+.bookingform-section {
     background-color: white;
-    color: black;
-    margin-top: 60px;
-    height: 210px;
-    text-align: center;
 }
 
 .services-title {
@@ -78,102 +73,15 @@ body {
 
 .menucontainer {
     justify-content: space-evenly;
-    height: 50vh;
-}
-
-.menu-visits {
-    height: 100%;
-    text-decoration: none;
-    margin-top: 25px;
-}
-
-.menu-walking {
-    height: 100%;
-    text-decoration: none;
-    margin-top: 25px;
-}
-
-.menu-boarding {
-    height: 100%;
-    text-decoration: none;
-    margin-top: 25px;
-}
-
-.menu-title1 {
-    text-align: center;
-    text-emphasis-color: white;
-    color: #242c10;
-    margin-bottom: 1rem;
-}
-
-.menu-title2 {
-    text-align: center;
-    text-emphasis-color: white;
-    color:#840b5e;
-    margin-bottom: 1rem;
-}
-
-.menu-title3 {
-    text-align: center;
-    text-emphasis-color: white;
-    color: hsl(81deg 59% 39%);
-    margin-bottom: 1rem;
-}
-
-.mark {
-    background-color: white;
-}
-
-.services-text1 {
-    color: #242c10;
-    font-size: 100%;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;   
-}
-
-.services-text2 {
-    color: #840b5e;
-    font-size: 100%;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.services-text3 {
-    color: hsl(81deg 59% 39%);
-    font-size: 100%;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-
-.services-block1 {
-    background-color: white;
-    padding: 7%;
-    height: 80%;
-}
-
-.services-block2 {
-    background-color: white;
-    padding: 7%;
-    height: 80%;
-    
-}
-
-.services-block3 {
-    background-color: white;
-    padding: 7%;
-    height: 80%;
-}
-
-.prices {
-    color: black;
-    font-size: 80%;
+    /*height: 50vh;*/
 }
 
 /* Footer */
 
 .myfooter {
-    background-color:#242c10;
+    /*background-color:#242c10;*/
+    /*background-color: #8e8e8e9c;*/
+    background-color: transparent;
     /*height: 110px;*/
     position: fixed;
     left: 0;
@@ -182,9 +90,10 @@ body {
 }
 
 .footerheader {
-    color: white;
-    font-weight: 500;
-    font-size: 150%;
+    /*color: white;*/
+    color: #840b5e;
+    font-weight: 400;
+    font-size: 120%;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 1.5rem;
@@ -196,19 +105,20 @@ body {
 }
 
 #social-media i {
-    font-size: 200%;
+    font-size: 150%;
     margin: 1%;
     padding: 5%;
-    color:#f8f9fa;
+    /*color:#f8f9fa;*/
+    color: #840b5e;
 }
 
 #social-media a:hover {
-    font-size: 120%;
+    /*font-size: 100%;*/
     color:hsl(81, 100%, 67%);
 }
 
 #social-media i:hover {
-    font-size: 200%;
+    /*font-size: 180%;*/
     margin: 1%;
     padding: 5%;
     color:hsl(81, 100%, 67%);
@@ -270,3 +180,186 @@ body {
 }
 
 
+
+/*-----------------------------------*/
+
+.form-section {
+    clear: left;
+    background-size: cover;
+    /*height: 900px;*/
+}
+
+
+body, div, form, input, select, textarea, p { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+}
+
+h1 {
+    position: absolute;
+    margin: 0;
+    font-size: 32px;
+    color: #fff;
+    z-index: 2;
+}
+
+.mybookingform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px;
+}
+
+form-section {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 #840b5e; 
+}
+
+.banner {
+    position: relative;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 85px;
+    background-color: white;
+     /*background-color: #242c10;*/
+}
+
+.form-wrapper {
+      /*color:hsl(81, 100%, 67%);*/
+      color:#840b5e;
+}
+
+.banner::after {
+      content: "";
+      /*background-color: rgba(0, 0, 0, 0.5);*/
+      position: absolute;
+      width: 100%;
+      height: 100%;
+}
+
+.content-container{
+    height: 700px;
+    margin-top: 85px;
+    margin-bottom: 100px;
+}
+
+
+input, textarea, select {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+}
+
+input {
+      width: calc(100% - 10px);
+      padding: 5px;
+}
+
+select {
+      width: 100%;
+      padding: 7px 0;
+      background: transparent;
+}
+
+textarea {
+      width: calc(100% - 12px);
+      padding: 5px;
+}
+
+.item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
+      color: #840b5e;
+}
+
+.item input:hover, .item select:hover, .item textarea:hover {
+      border: 1px solid transparent;
+      box-shadow: 0 0 6px 0 #840b5e;
+      color: #840b5e;
+}
+
+.item {
+      position: relative;
+      margin: 10px 0;
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+      display: none;
+}
+
+.item i, input[type="date"]::-webkit-calendar-picker-indicator {
+      position: absolute;
+      font-size: 20px;
+      color: #a9a9a9;
+}
+
+.item i {
+    right: 1%;
+    top: 30px;
+    z-index: 1;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    right: 0;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+}
+
+input[type="time"]::-webkit-inner-spin-button {
+    margin: 2px 22px 0 0;
+}
+
+      
+.question span {
+    margin-left: 30px;
+}
+
+      
+.btn-block {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background: #840b5e;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #bf1e81;
+}
+
+.btn-booking {
+    color:hsl(81, 100%, 67%);
+    background-color:#242c10;
+    border-color:hsl(81, 100%, 67%);
+}
+
+
+@media (min-width: 568px) {
+    .name-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+
+.name-item input {
+      width: calc(50% - 20px);
+}

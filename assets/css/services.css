@@ -14,12 +14,15 @@ body {
 /*Navigation*/
 
 .bg-custom-green {
-    background-color:#242c10;
+    /*background-color:#242c10;*/
+    /*background-color: #8e8e8e9c;*/
+    background-color: #b9626252;
 }
 
 .navbar-menu {
     font-size: 100%;
-    color: white;
+    /*color: white;*/
+    color: #840b5e;
     list-style-type: none;
     margin-left: auto;
     letter-spacing: 2px;
@@ -42,7 +45,8 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    /*color: white;*/
+    color: #840b5e;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -59,7 +63,7 @@ body {
 }
 
 .service-list-container {
-    background-color: rgb(243 190 217 / 25%);
+    /*background-color: rgb(243 190 217 / 25%);*/
     color: #840b5e;
     height: 100%;
 }
@@ -67,8 +71,8 @@ body {
 .services-header {
     background-color: white;
     color: black;
-    margin-top: 60px;
-    height: 210px;
+    margin-top: 80px;
+    /*height: 210px;*/
     text-align: center;
 }
 
@@ -78,46 +82,48 @@ body {
 
 .menucontainer {
     justify-content: space-evenly;
-    height: 50vh;
+    /*height: 50vh;*/
 }
 
 .menu-visits {
-    height: 100%;
+    /*height: 100%;*/
     text-decoration: none;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .menu-walking {
-    height: 100%;
+    /*height: 100%;*/
     text-decoration: none;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .menu-boarding {
-    height: 100%;
+    h/*eight: 100%;*/
     text-decoration: none;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .menu-title1 {
     text-align: center;
     text-emphasis-color: white;
     color: #242c10;
-    margin-bottom: 1rem;
+    /*margin-bottom: 1rem;*/
 }
 
 .menu-title2 {
     text-align: center;
     text-emphasis-color: white;
-    color:#840b5e;
-    margin-bottom: 1rem;
+    color: #242c10;
+    /*color:#840b5e;*/
+    /*margin-bottom: 1rem;*/
 }
 
 .menu-title3 {
     text-align: center;
     text-emphasis-color: white;
-    color: hsl(81deg 59% 39%);
-    margin-bottom: 1rem;
+    color: #242c10;
+    /*color: hsl(81deg 59% 39%);*/
+   /* margin-bottom: 1rem;*/
 }
 
 .mark {
@@ -125,23 +131,25 @@ body {
 }
 
 .services-text1 {
-    color: #242c10;
+    color: hsl(81deg 59% 39%);
+    /*color: #242c10;*/
     font-size: 100%;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem;   
 }
 
 .services-text2 {
-    color: #840b5e;
+    color: hsl(81deg 59% 39%);
+    /*color: #840b5e;*/
     font-size: 100%;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
 
 .services-text3 {
     color: hsl(81deg 59% 39%);
     font-size: 100%;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -149,20 +157,20 @@ body {
 .services-block1 {
     background-color: white;
     padding: 7%;
-    height: 80%;
+    /*height: 80%;*/
 }
 
 .services-block2 {
     background-color: white;
     padding: 7%;
-    height: 80%;
+    /*height: 80%;*/
     
 }
 
 .services-block3 {
     background-color: white;
     padding: 7%;
-    height: 80%;
+    /*height: 80%;*/
 }
 
 .prices {
@@ -173,7 +181,9 @@ body {
 /* Footer */
 
 .myfooter {
-    background-color:#242c10;
+    /*background-color:#242c10;*/
+    /*background-color: #8e8e8e9c;*/
+    background-color: transparent;
     /*height: 110px;*/
     position: fixed;
     left: 0;
@@ -182,9 +192,10 @@ body {
 }
 
 .footerheader {
-    color: white;
-    font-weight: 500;
-    font-size: 150%;
+    /*color: white;*/
+    color: #840b5e;
+    font-weight: 400;
+    font-size: 120%;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 1.5rem;
@@ -196,19 +207,20 @@ body {
 }
 
 #social-media i {
-    font-size: 200%;
+    font-size: 150%;
     margin: 1%;
     padding: 5%;
-    color:#f8f9fa;
+    /*color:#f8f9fa;*/
+    color: #840b5e;
 }
 
 #social-media a:hover {
-    font-size: 120%;
+    font-size: 100%;
     color:hsl(81, 100%, 67%);
 }
 
 #social-media i:hover {
-    font-size: 200%;
+    font-size: 180%;
     margin: 1%;
     padding: 5%;
     color:hsl(81, 100%, 67%);
