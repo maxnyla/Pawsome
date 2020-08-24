@@ -16,7 +16,8 @@ body {
 .bg-custom-green {
     /*background-color:#242c10;*/
     /*background-color: #8e8e8e9c;*/
-    background-color: #b9626252;
+    /*background-color: #b9626252;*/
+    background-color: #4a503b61;
 }
 
 .navbar-menu {
@@ -76,107 +77,11 @@ body {
     text-align: center;
 }
 
-.services-title {
-    color: #840b5e;
-}
-
-.menucontainer {
-    justify-content: space-evenly;
-    /*height: 50vh;*/
-}
-
-.menu-visits {
-    /*height: 100%;*/
-    text-decoration: none;
-    margin-top: 15px;
-}
-
-.menu-walking {
-    /*height: 100%;*/
-    text-decoration: none;
-    margin-top: 15px;
-}
-
-.menu-boarding {
-    h/*eight: 100%;*/
-    text-decoration: none;
-    margin-top: 15px;
-}
-
-.menu-title1 {
-    text-align: center;
-    text-emphasis-color: white;
-    color: #242c10;
-    /*margin-bottom: 1rem;*/
-}
-
-.menu-title2 {
-    text-align: center;
-    text-emphasis-color: white;
-    color: #242c10;
-    /*color:#840b5e;*/
-    /*margin-bottom: 1rem;*/
-}
-
-.menu-title3 {
-    text-align: center;
-    text-emphasis-color: white;
-    color: #242c10;
-    /*color: hsl(81deg 59% 39%);*/
-   /* margin-bottom: 1rem;*/
-}
 
 .mark {
     background-color: white;
 }
 
-.services-text1 {
-    color: hsl(81deg 59% 39%);
-    /*color: #242c10;*/
-    font-size: 100%;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;   
-}
-
-.services-text2 {
-    color: hsl(81deg 59% 39%);
-    /*color: #840b5e;*/
-    font-size: 100%;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-.services-text3 {
-    color: hsl(81deg 59% 39%);
-    font-size: 100%;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-
-.services-block1 {
-    background-color: white;
-    padding: 7%;
-    /*height: 80%;*/
-}
-
-.services-block2 {
-    background-color: white;
-    padding: 7%;
-    /*height: 80%;*/
-    
-}
-
-.services-block3 {
-    background-color: white;
-    padding: 7%;
-    /*height: 80%;*/
-}
-
-.prices {
-    color: black;
-    font-size: 80%;
-}
 
 /* Footer */
 
@@ -215,12 +120,12 @@ body {
 }
 
 #social-media a:hover {
-    font-size: 100%;
+    /*font-size: 100%;*/
     color:hsl(81, 100%, 67%);
 }
 
 #social-media i:hover {
-    font-size: 180%;
+    /*font-size: 180%;*/
     margin: 1%;
     padding: 5%;
     color:hsl(81, 100%, 67%);

@@ -16,7 +16,8 @@ body {
 .bg-custom-green {
     /*background-color:#242c10;*/
     /*background-color: #8e8e8e9c;*/
-    background-color: #b9626252;
+    /*background-color: #b9626252;*/
+    background-color: #4a503b61;
 }
 
 .navbar-menu {
@@ -64,7 +65,8 @@ body {
 
 
 .bookingform-section {
-    background-color: white;
+    background-color: #4a5a4714;
+    min-height: 100vh;
 }
 
 .services-title {
@@ -83,7 +85,7 @@ body {
     /*background-color: #8e8e8e9c;*/
     background-color: transparent;
     /*height: 110px;*/
-    position: fixed;
+    /*position: fixed;*/
     left: 0;
     bottom: 0;
     width: 100%;

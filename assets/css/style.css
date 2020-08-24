@@ -18,7 +18,8 @@ body {
 .bg-custom-green {
     /*background-color:#242c10;*/
     /*background-color: #8e8e8e9c;*/
-    background-color: #b9626252;
+    /*background-color: #b9626252;*/
+    background-color: #4a503b61;
 }
 
 .navbar-menu {
@@ -65,7 +66,6 @@ body {
 
 
 .callout-container {
-    float: center;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -83,13 +83,13 @@ body {
 
 
 .mymaincontainer {
-    height: 100vh;
+    /*height: 100vh;*/
     background: url("../images/newmain.jpg") no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
     background-size: cover;
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -203,12 +203,12 @@ body {
 }
 
 #social-media a:hover {
-    font-size: 100%;
+    /*font-size: 100%;*/
     color:hsl(81, 100%, 67%);
 }
 
 #social-media i:hover {
-    font-size: 180%;
+    /*font-size: 180%;*/
     margin: 1%;
     padding: 5%;
     color:hsl(81, 100%, 67%);

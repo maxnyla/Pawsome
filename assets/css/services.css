@@ -16,7 +16,8 @@ body {
 .bg-custom-green {
     /*background-color:#242c10;*/
     /*background-color: #8e8e8e9c;*/
-    background-color: #b9626252;
+    /*background-color: #b9626252;*/
+    background-color: #4a503b61;
 }
 
 .navbar-menu {
@@ -64,15 +65,17 @@ body {
 
 .service-list-container {
     /*background-color: rgb(243 190 217 / 25%);*/
+    background-color: #4a5a4714;
     color: #840b5e;
-    height: 100%;
+    min-height: 100vh;
+    height: 500px;
 }
 
 .services-header {
     background-color: white;
     color: black;
-    margin-top: 80px;
-    /*height: 210px;*/
+    margin-top: 90px;
+    height: 220px;
     text-align: center;
 }
 
@@ -82,7 +85,8 @@ body {
 
 .menucontainer {
     justify-content: space-evenly;
-    /*height: 50vh;*/
+    height: 650px;
+    margin-top: 70px;
 }
 
 .menu-visits {
@@ -98,7 +102,7 @@ body {
 }
 
 .menu-boarding {
-    h/*eight: 100%;*/
+    /*height: 100%;*/
     text-decoration: none;
     margin-top: 15px;
 }
@@ -185,7 +189,7 @@ body {
     /*background-color: #8e8e8e9c;*/
     background-color: transparent;
     /*height: 110px;*/
-    position: fixed;
+    /*position: fixed;*/
     left: 0;
     bottom: 0;
     width: 100%;
@@ -215,12 +219,12 @@ body {
 }
 
 #social-media a:hover {
-    font-size: 100%;
+    /*font-size: 100%;*/
     color:hsl(81, 100%, 67%);
 }
 
 #social-media i:hover {
-    font-size: 180%;
+    /*font-size: 180%;*/
     margin: 1%;
     padding: 5%;
     color:hsl(81, 100%, 67%);

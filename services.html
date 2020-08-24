@@ -18,28 +18,45 @@
 <!---------------------- Header (Navbar taken from Bootstrap documentation) ------------------------->
 
     <nav class="navbar custom-nav navbar-expand-md navbar-dark bg-custom-green fixed-top">
-        <a class="navbar-brand logo" href="#">
-            <img src="assets/images/logo.jpg" width="190" height="60" alt="Paw-some" loading="lazy">
+        <a class="navbar-brand logo" 
+                href="#">
+                <img src="assets/images/logo.jpg" 
+                    width="190" 
+                    height="60" 
+                    alt="Paw-some" 
+                    loading="lazy">
         </a>
         <!--<a class="branding" href="about.html">Adventures for dogs</a>-->
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarNav">
+                    <span class="navbar-toggler-icon">
+                    </span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav navbar-menu">
                 <li class="nav-item">
-                <h3><a class="nav-link" href="index.html">Home</a></h3>
+                    <h3>
+                        <a class="nav-link" href="index.html">Home</a>
+                    </h3>
                 </li>
                 <li class="nav-item">
-                <h3><a class="nav-link active" href="services.html">Services</a></h3>
+                    <h3>
+                        <a class="nav-link active" href="services.html">Services</a>
+                    </h3>
                 </li>
                 <li class="nav-item">
-                <h3><a class="nav-link" href="gallery.html">Gallery</a></h3>
+                    <h3>
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </h3>
                 </li>
                 <li class="nav-item">
-                <h3><a class="nav-link" href="booking.html">Booking</a></h3>
+                    <h3>
+                        <a class="nav-link" href="booking.html">Booking</a>
+                    </h3>
                 </li>
             </ul>
         </div>  
@@ -66,42 +83,69 @@
             <div class="row no-gutters">
                 <div class="col heading services-header">
                     <br>
-                    <h2 class="services-title">PawSome Services</h2>
+                    <h2 class="services-title">
+                        PawSome Services
+                    </h2>
                     <br>
-                    <!-- Button trigger modal-->
-                    <button type="button" class="btn btn-lg btn--cta btn--pnk" data-toggle="modal" data-target="#modalPrices"><i class="fas fa-paw" style="font-size:150%;"></i> Prices</button>
-                        <!-- Modal: modalPrices-->
-                        <div class="modal fade right" id="modalPrices" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
-                        <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Header-->
-                                <div class="modal-header">
-                                    <p class="heading">Prices</p>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true" class="white-text">&times;</span>
-                                        </button>
-                                </div>
-                                <!--Body-->
-                                <div class="modal-body">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <p>Visits: £10 for a 30 minute drop-in.</p>
-                                            <p>Group walks: £10 for 30 minutes and £13 for 60 minutes.</p>
-                                            <p>Individual walks: £14 for 30 minutes and £16 for 60 minutes.</p>
-                                            <p class="text-secondary"><small>*50% discount for second pet in household on walks and boarding.</small></p>               
+                        <!-- Button trigger modal-->
+                        <button 
+                            type="button" 
+                            class="btn btn-lg btn--cta btn--pnk" 
+                            data-toggle="modal" 
+                            data-target="#modalPrices">
+                                <i class="fas fa-paw" 
+                                    style="font-size:150%;">
+                                </i> Prices
+                        </button>
+                            <!-- Modal: modalPrices-->
+                            <div class="modal fade right" 
+                                id="modalPrices" 
+                                tabindex="-1" 
+                                role="dialog" 
+                                aria-labelledby="modalPrices" 
+                                aria-hidden="true" 
+                                data-backdrop="false">
+                            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" 
+                                role="document">
+                                <!--Content-->
+                                <div class="modal-content">
+                                    <!--Header-->
+                                    <div class="modal-header">
+                                        <p class="heading">Prices</p>
+                                            <button type="button" 
+                                                    class="close" 
+                                                    data-dismiss="modal" 
+                                                    aria-label="Close">
+                                                            <span aria-hidden="true" 
+                                                                  class="white-text">&times;
+                                                            </span>
+                                            </button>
+                                    </div>
+                                    <!--Body-->
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p>Visits: £10 for a 30 minute drop-in.</p>
+                                                <p>Group walks: £10 for 30 minutes and £13 for 60 minutes.</p>
+                                                <p>Individual walks: £14 for 30 minutes and £16 for 60 minutes.</p>
+                                                <p class="text-secondary">
+                                                    <small>*50% discount for second pet in household on walks and boarding.</small>
+                                                </p>               
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!--Modal Footer-->
-                                <div class="modal-footer justify-content-center">
-                                    <a type="button" class="btn--green waves-effect" data-dismiss="modal">Close</a>
-                                </div>
-                            </div>     
-                            <!--/.Content-->       
-                        </div>
-                        </div>
-                        <!-- Modal: modalPrices-->
+                                    <!--Modal Footer-->
+                                    <div class="modal-footer justify-content-center">
+                                        <a type="button" 
+                                            class="btn--green waves-effect" 
+                                            data-dismiss="modal">Close
+                                        </a>
+                                    </div>
+                                </div>     
+                                <!--/.Content-->       
+                            </div>
+                            </div>
+                            <!-- Modal: modalPrices-->
                 </div>
             </div>
         </div>
@@ -109,29 +153,41 @@
     <div class="container-fluid service-list-container">
                 <div class="row menucontainer">
                             <div class="col-sm-3 menu-visits">
-                                    <h3 class="menu-title1"><strong>Visits</strong></h3>                                       
+                                    <h3 class="menu-title1">
+                                        <strong>Visits</strong>
+                                    </h3>
+                                    <br>                                       
                                     <div class="services-block1">
                                         <p class="services-text1">Do you need to leave your pet at home for long periods? 
-                                        We can pop in for one or two 30 minute visits to provide company and cuddles, top up their water and make sure they're well. 
-                                        We can administer oral medication if required and we also offer this service for cats and other small animals. 
-                                        This is ideal for young or older pets who need more attention or are not able to go for walks.</p>   
+                                            We can pop in for one or two 30 minute visits to provide company and cuddles, top up their water and make sure they're well. 
+                                            We can administer oral medication if required and we also offer this service for cats and other small animals. 
+                                            This is ideal for young or older pets who need more attention or are not able to go for walks.
+                                        </p>   
                                     </div>                            
                             </div>
                             <div class="col-sm-3 menu-walking">
-                                    <h3 class="menu-title2"><strong>Walks</strong></h3>            
+                                    <h3 class="menu-title2">
+                                        <strong>Walks</strong>
+                                    </h3>
+                                    <br>          
                                     <div class="services-block2">
                                         <p class="services-text2">Don't worry about your pooch when you go to work: they'll have the best adventures with us! 
-                                        We'll pick them up to go for a fun-filled walk. Walks last 30/60 minutes and we provide individual and group walks, with a maximum of 4 dogs per group. 
-                                        Once back home we'll towel them down, refill their water and make sure they're happy and ready to welcome you back after their nap.</p>
+                                            We'll pick them up to go for a fun-filled walk. Walks last 30/60 minutes and we provide individual and group walks, with a maximum of 4 dogs per group. 
+                                            Once back home we'll towel them down, refill their water and make sure they're happy and ready to welcome you back after their nap.
+                                        </p>
                                     </div>
                             </div>
                             <div class="col-sm-3 menu-boarding">
-                                    <h3 class="menu-title3"><strong>Boarding</strong></h3>                  
+                                    <h3 class="menu-title3">
+                                        <strong>Boarding</strong>
+                                    </h3> 
+                                    <br>                 
                                     <div class="services-block3">
                                         <p class="services-text3">Want to go on holiday but worry about leaving your pet behind? With our home boarding service, 
                                            your dog/s will have their own holiday and the best time! We'll take care of them in our home, giving them all attention that they're used to. 
                                            They'll have two walks a day, lots of play and cuddles and will have a great time whilst you are away, safe in the knowledge that 
-                                            they're well cared for.</p>
+                                            they're well cared for.
+                                        </p>
                                     </div>
                             </div>
                 </div>
@@ -153,24 +209,36 @@
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <form>
-                <h6 class="footerheader"><strong>Subscribe to our news</strong></h6>
-                    <div class="input-group">
-                        <input type="email" class="form-control newsletter" placeholder="Your email address here, please">
-                            <span class="input-group-btn btn--footer">
-                                <button class="btn btn-small no-border-radius btn--footer" type="submit"
-                                        >Keep in touch!</button>
-                            </span>
-                    </div>
+                    <h6 class="footerheader"><strong>Subscribe to our news</strong></h6>
+                        <div class="input-group">
+                            <input type="email" 
+                                    class="form-control newsletter" 
+                                    placeholder="Your email address here, please">
+                                        <span class="input-group-btn btn--footer">
+                                            <button class="btn btn-small no-border-radius btn--footer" 
+                                                    type="submit"
+                                                    >Keep in touch!
+                                            </button>
+                                        </span>
+                        </div>
                 </form>
             </div>
 
             <div class="col-md-8">
                		<div class="social-networks">
                         <ul id="social-media">
-                            <li> <a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i> </a> </li>
-                            <li> <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> </a> </li>
-                            <li> <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i> </a> </li>
-                            <li> <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i> </a> </li>
+                            <li> 
+                                <a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i> </a> 
+                            </li>
+                            <li> 
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> </a> 
+                            </li>
+                            <li> 
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i> </a> 
+                            </li>
+                            <li> 
+                                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i> </a> 
+                            </li>
                         </ul>
                 	</div>
             </div>
