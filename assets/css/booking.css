@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    min-height: 100%;
-    
+    /*min-height: 100%;*/
+    min-height: 100vh;
 }
 
 #services-header {
@@ -22,7 +22,6 @@ body {
 
 .navbar-menu {
     font-size: 100%;
-    /*color: white;*/
     color: #840b5e;
     list-style-type: none;
     margin-left: auto;
@@ -46,7 +45,6 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    /*color: white;*/
     color: #840b5e;
 }
 
@@ -67,10 +65,6 @@ body {
 .bookingform-section {
     background-color: #4a5a4714;
     min-height: 100vh;
-}
-
-.services-title {
-    color: #840b5e;
 }
 
 .menucontainer {
@@ -128,37 +122,11 @@ body {
 
 /*Buttons*/
 
-.btn--cta {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
-}
-
-.btn--pnk {
-    color: white;
-    background-color: #840b5e;
-    border-color: #840b5e;
-    /*padding-top: 1.5%;
-    padding-bottom: 1.5%;*/
-    margin-top: 5px;
-    font-size: x-large;
-    border-radius: 60px;
-    border-width: medium;
-}
-
 .btn--green {
     background-color:#242c10;
     color: white;
 }
 
-.btn--pnk:hover,
-.btn--pnk:active,
-.btn--pnk:focus
-.btn--pnk:active:focus {
-    color:hsl(81, 100%, 67%);
-    background-color:#242c10;
-    border-color:hsl(81, 100%, 67%);
-}
 
 .btn--footer {
     color:white;
@@ -234,8 +202,7 @@ form-section {
     align-items: center;
     text-align: center;
     margin-top: 85px;
-    background-color: white;
-     /*background-color: #242c10;*/
+    background-color: #4a5a4714;
 }
 
 .form-wrapper {
@@ -254,7 +221,7 @@ form-section {
 .content-container{
     height: 700px;
     margin-top: 85px;
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
 }
 
 
@@ -355,13 +322,66 @@ button:hover {
 }
 
 
+.name-item input {
+      width: calc(50% - 20px);
+}
+
+/* /* /* /* /* /* /* /* MEDIA QUERIES /* /* /* /* /* /* /* /* 
+
+/* settings for mobile and tablet size*/
+
+@media screen and (max-width: 768px) { 
+  .navbar-menu,
+  .navbar-dark,
+  .navbar-nav,
+  .nav-link {
+    font-size: 80%;
+    letter-spacing: 0px;
+  }
+
+  .form-wrapper {
+    font-size: 99%;
+  }
+
+  .btn-booking {
+    font-size: 90%;
+    width: 60px;
+    padding: 5px;
+    border: none;
+    border-radius: 2.5px;
+    }
+
+  #navbarNav { 
+    font-size: 30%;
+  }
+
+  .left-footer,
+  .footerheader,
+  .input-group {
+    font-size: 95%;
+  }
+
+  .right-footer {
+    width: 70%;
+  }
+
+  #social-media i {
+    font-size: 90%;
+  }
+
+  .btn--footer {
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 2px;
+  }
+}
+
+/* settings for tablet size and pc/laptops */
+
 @media (min-width: 568px) {
     .name-item {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-}
-
-.name-item input {
-      width: calc(50% - 20px);
+    }
 }

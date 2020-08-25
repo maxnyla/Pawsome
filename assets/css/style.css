@@ -42,19 +42,16 @@ body {
 }
 
 .branding:hover {
-    /*color: #242c10;*/
     color:hsl(81, 100%, 67%);
     text-decoration: none;
     font-style: italic;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    /*color: white;*/
     color: #840b5e;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    /*color: #242c10;*/
     color:hsl(81, 100%, 67%);
     text-decoration: none;
     font-style: italic;
@@ -208,7 +205,6 @@ body {
 }
 
 #social-media i:hover {
-    /*font-size: 180%;*/
     margin: 1%;
     padding: 5%;
     color:hsl(81, 100%, 67%);
@@ -221,3 +217,74 @@ body {
 
 /*Content containers*/
 
+
+/* /* /* /* /* /* /* /* MEDIA QUERIES /* /* /* /* /* /* /* /* 
+
+/* settings for mobile and tablet size*/
+
+@media screen and (max-width: 768px) { 
+  .navbar-menu,
+  .navbar-dark,
+  .navbar-nav,
+  .nav-link {
+    font-size: 80%;
+    letter-spacing: 0px;
+  }
+
+  .form-wrapper {
+    font-size: 99%;
+  }
+
+  .btn-booking {
+    font-size: 90%;
+    width: 60px;
+    padding: 5px;
+    border: none;
+    border-radius: 2.5px;
+    }
+
+  #navbarNav { 
+    font-size: 30%;
+  }
+
+  .left-footer,
+  .footerheader,
+  .input-group {
+    font-size: 95%;
+  }
+
+  /*.right-footer {
+    width: 70%;
+  }*/
+
+  #social-media i {
+    font-size: 90%;
+  }
+
+  .btn--footer {
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 2px;
+  }
+
+  .main-text {
+    font-size: 2rem;
+  }
+
+  .jumbotron-background {
+    margin-left: 8%;
+  }
+
+   .btn--pnk {
+    font-size: 24px;
+    border-radius: 580px;
+    padding: 2.5px;
+  }
+
+}
+
+/* settings for tablet size and pc/laptops */
+
+@media (min-width: 568px) {
+    
+}
