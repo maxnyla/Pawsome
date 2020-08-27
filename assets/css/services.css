@@ -86,7 +86,7 @@ body {
 .menucontainer {
     justify-content: space-evenly;
     /*height: 650px;*/
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .menu-visits {
@@ -336,6 +336,7 @@ body {
     width: 200px;
     height: 150px;
   }*/
+
 }
 
 /* settings for tablet size and pc/laptops */
