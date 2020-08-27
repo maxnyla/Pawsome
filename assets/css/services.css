@@ -68,7 +68,7 @@ body {
     background-color: #4a5a4714;
     color: #840b5e;
     min-height: 100vh;
-    height: 500px;
+    /*height: 500px;*/
 }
 
 .services-header {
@@ -85,7 +85,7 @@ body {
 
 .menucontainer {
     justify-content: space-evenly;
-    height: 650px;
+    /*height: 650px;*/
     margin-top: 70px;
 }
 
@@ -330,6 +330,12 @@ body {
     border-radius: 0px;
     padding: 2px;
   }
+
+  /*.photo-left, 
+  .photo-right {
+    width: 200px;
+    height: 150px;
+  }*/
 }
 
 /* settings for tablet size and pc/laptops */
