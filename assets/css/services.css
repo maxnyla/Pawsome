@@ -291,7 +291,7 @@ body {
   .navbar-dark,
   .navbar-nav,
   .nav-link {
-    font-size: 80%;
+    font-size: 70%;
     letter-spacing: 0px;
   }
 
@@ -308,7 +308,7 @@ body {
     }
 
   #navbarNav { 
-    font-size: 30%;
+    font-size: 20%;
   }
 
   .left-footer,
