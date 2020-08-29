@@ -1,11 +1,7 @@
 html {
-    /*height: 100vh;*/
 }
 
-body {
-    /*height: 100%;*/
-    /*height: 100vh;*/
-    
+body { 
 }
 
 #services-header {
@@ -15,15 +11,11 @@ body {
 /*Navigation*/
 
 .bg-custom-green {
-    /*background-color:#242c10;*/
-    /*background-color: #8e8e8e9c;*/
-    /*background-color: #b9626252;*/
     background-color: #4a503b61;
 }
 
 .navbar-menu {
-    font-size: 100%;
-    /*color: white;*/
+    font-size: .8em;
     color: #840b5e;
     list-style-type: none;
     margin-left: auto;
@@ -32,10 +24,10 @@ body {
 
 .branding {
     color:white;
-    font-size: 150;
+    font-size: 1em;
     font-weight: 600;
     text-decoration: none;
-    font-size: xx-large;
+    /*font-size: xx-large;*/
     letter-spacing: 2px;
     margin-right: 33%;
 }
@@ -64,18 +56,17 @@ body {
 }
 
 .service-list-container {
-    /*background-color: rgb(243 190 217 / 25%);*/
     background-color: #4a5a4714;
     color: #840b5e;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     /*height: 500px;*/
 }
 
 .services-header {
     background-color: white;
     color: black;
-    margin-top: 90px;
-    height: 220px;
+    /*margin-top: 90px;*/
+    /*height: 220px;*/
     text-align: center;
 }
 
@@ -86,25 +77,25 @@ body {
 .menucontainer {
     justify-content: space-evenly;
     /*height: 650px;*/
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
 
 .menu-visits {
     /*height: 100%;*/
     text-decoration: none;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
 }
 
 .menu-walking {
     /*height: 100%;*/
     text-decoration: none;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
 }
 
 .menu-boarding {
     /*height: 100%;*/
     text-decoration: none;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
 }
 
 .menu-title1 {
@@ -135,46 +126,35 @@ body {
 }
 
 .services-text1 {
-    color: hsl(81deg 59% 39%);
-    /*color: #242c10;*/
-    font-size: 100%;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;   
+    color: hsl(244deg 59% 39%);
+    font-size: 1.1em;   
 }
 
 .services-text2 {
     color: hsl(81deg 59% 39%);
-    /*color: #840b5e;*/
-    font-size: 100%;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.1em; 
 }
 
 .services-text3 {
-    color: hsl(81deg 59% 39%);
-    font-size: 100%;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    color: hsl(338deg 78% 48%);
+    font-size: 1.1em; 
 }
 
 
 .services-block1 {
     background-color: white;
     padding: 7%;
-    /*height: 80%;*/
 }
 
 .services-block2 {
     background-color: white;
     padding: 7%;
-    /*height: 80%;*/
     
 }
 
 .services-block3 {
     background-color: white;
     padding: 7%;
-    /*height: 80%;*/
 }
 
 .prices {
@@ -188,8 +168,6 @@ body {
     /*background-color:#242c10;*/
     /*background-color: #8e8e8e9c;*/
     background-color: transparent;
-    /*height: 110px;*/
-    /*position: fixed;*/
     left: 0;
     bottom: 0;
     width: 100%;
@@ -294,6 +272,17 @@ body {
     font-size: 70%;
     letter-spacing: 0px;
   }
+
+    .menu-visits,
+    .menu-walking,
+    .menu-boarding{
+	  margin-top: 1.3em;
+  }
+
+    .menucontainer{
+	  margin-top: 2em;
+  }
+
 
   .form-wrapper {
     font-size: 99%;
