@@ -16,7 +16,6 @@
 
 <body>
 <!---------------------- Header (Navbar taken from Bootstrap documentation) ------------------------->
-   
 <header class="container-fluid">
     <nav class="navbar custom-nav navbar-expand-sm navbar-dark bg-custom-green fixed-top">
         <a class="navbar-brand logo" href="index.html">
@@ -32,10 +31,11 @@
                 type="button" 
                 data-toggle="collapse" 
                 data-target="#navbarNav"
-                aria-controls="navbarMenu" 
+                aria-controls="navbarNav" 
 		        aria-expanded="false" 
 		        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">
+                        </span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -55,9 +55,8 @@
             </ul>
         </div>  
     </nav>
-</header>
-
 <!----------------------- /.Header ---------------------->
+</header>
 
 <!---------------------- Main area  ------------------------->
 <div class="container-fluid mymaincontainer">
@@ -155,14 +154,14 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-<script>
+<!---<script>
         window.onclick = function (e) {
             let dropDown = document.getElementById("navbarNav");
             if (dropDown.classList.contains("show")) {
                 dropDown.classList.remove("show");
             }
         };
-</script>
+</script> ----->
 
 </body>
 
