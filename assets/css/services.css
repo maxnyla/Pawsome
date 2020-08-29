@@ -136,7 +136,7 @@ body {
 }
 
 .services-text3 {
-    color: hsl(338deg 78% 48%);
+    color: hsl(338deg 85% 41%);
     font-size: 1.1em; 
 }
 
@@ -269,9 +269,13 @@ body {
   .navbar-dark,
   .navbar-nav,
   .nav-link {
-    font-size: 70%;
+    font-size: .7em;
     letter-spacing: 0px;
   }
+
+  /*.price-modal{
+    width: 20em;
+  }*/
 
     .menu-visits,
     .menu-walking,
@@ -306,9 +310,6 @@ body {
     font-size: 95%;
   }
 
-  /*.right-footer {
-    width: 70%;
-  }*/
 
   #social-media i {
     font-size: 90%;
@@ -320,11 +321,6 @@ body {
     padding: 2px;
   }
 
-  /*.photo-left, 
-  .photo-right {
-    width: 200px;
-    height: 150px;
-  }*/
 
 }
 

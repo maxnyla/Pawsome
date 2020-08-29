@@ -10,7 +10,7 @@
 <body>
 
 <!---------------------- Header (Navbar taken from Bootstrap documentation) ------------------------->
-<header class="container-fluid">
+<header>
     <nav class="navbar custom-nav navbar-expand-sm navbar-dark bg-custom-green">
         <a class="navbar-brand logo" href="index.html">
             <img src="assets/images/logo.jpg" 
@@ -83,18 +83,20 @@
                             <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" 
                                 role="document">
                                 <!--Content-->
-                                <div class="modal-content">
-                                    <!--Header-->
-                                    <div class="modal-header">
-                                        <p class="heading">Prices</p>
-                                            <button type="button" 
-                                                    class="close" 
-                                                    data-dismiss="modal" 
-                                                    aria-label="Close">
-                                                            <span aria-hidden="true" 
-                                                                  class="white-text">&times;
-                                                            </span>
-                                            </button>
+                                <div class="row price-modal modal-content">
+                                    <div class="col ml-3 mr-3">
+                                            <!--Header-->
+                                            <div class="modal-header">
+                                                <p class="heading">Prices</p>
+                                                    <button type="button" 
+                                                            class="close" 
+                                                            data-dismiss="modal" 
+                                                            aria-label="Close">
+                                                                    <span aria-hidden="true" 
+                                                                        class="white-text">&times;
+                                                                    </span>
+                                                    </button>
+                                            </div>
                                     </div>
                                     <!--Body-->
                                     <div class="modal-body">
