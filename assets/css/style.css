@@ -222,6 +222,14 @@ body {
 
 /* settings for mobile and tablet size*/
 
+@media (min-width: 576px)
+    .navbar-expand-sm {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
 @media screen and (max-width: 768px) { 
   .navbar-menu,
   .navbar-dark,
@@ -282,6 +290,8 @@ body {
   }
 
 }
+
+
 
 /* settings for tablet size and pc/laptops */
 

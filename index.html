@@ -17,33 +17,45 @@
 <body>
 <!---------------------- Header (Navbar taken from Bootstrap documentation) ------------------------->
    
-<nav class="navbar custom-nav navbar-expand-md navbar-dark bg-custom-green fixed-top">
-    <a class="navbar-brand logo" href="index.html">
-        <img src="assets/images/logo.jpg" width="190" height="60" alt="Paw-some" loading="lazy">
-    </a>
-    <!--<a class="branding" href="index2.html">Adventures for dogs</a>-->
+<header class="container-fluid">
+    <nav class="navbar custom-nav navbar-expand-sm navbar-dark bg-custom-green fixed-top">
+        <a class="navbar-brand logo" href="index.html">
+            <img src="assets/images/logo.jpg" 
+                width="190" 
+                height="60" 
+                alt="Paw-some" 
+                loading="lazy">
+        </a>
+        <!--<a class="branding" href="about.html">Adventures for dogs</a>-->
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+        <button class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarNav"
+                aria-controls="navbarMenu" 
+		        aria-expanded="false" 
+		        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav navbar-menu">
-            <li class="nav-item">
-            <h3><a class="nav-link active" href="index.html">Home</a></h3>
-            </li>
-            <li class="nav-item">
-            <h3><a class="nav-link" href="services.html">Services</a></h3>
-            </li>
-            <li class="nav-item">
-            <h3><a class="nav-link" href="gallery.html">Gallery</a></h3>
-            </li>
-            <li class="nav-item">
-            <h3><a class="nav-link" href="booking.html">Booking</a></h3>
-            </li>
-        </ul>
-    </div>  
-</nav>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navbar-menu">
+                <li class="nav-item active">
+                <h3><a class="nav-link active" href="index.html">Home</a></h3>
+                </li>
+                <li class="nav-item">
+                <h3><a class="nav-link" href="services.html">Services</a></h3>
+                </li>
+                <li class="nav-item">
+                <h3><a class="nav-link" href="gallery.html">Gallery</a></h3>
+                </li>
+                <li class="nav-item">
+                <h3><a class="nav-link" href="booking.html">Booking</a></h3>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+</header>
 
 <!----------------------- /.Header ---------------------->
 
