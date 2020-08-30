@@ -13,27 +13,11 @@ body {
 }
 
 .navbar-menu {
-    font-size: 100%;
+    /*font-size: 100%;*/
     color: #840b5e;
     list-style-type: none;
     margin-left: auto;
-    letter-spacing: 2px;
-}
-
-.branding {
-    color:white;
-    font-size: 150;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: xx-large;
-    letter-spacing: 2px;
-    margin-right: 33%;
-}
-
-.branding:hover {
-    color:hsl(81, 100%, 67%);
-    text-decoration: none;
-    font-style: italic;
+    letter-spacing: .1em;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -46,27 +30,7 @@ body {
     font-style: italic;
 }
 
-
-
 /*Containers*/
-
-
-.callout-container {
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 0px;
-    width: 600px;
-    background: transparent;
-}
-
-.vertical-container {
-    /*min-height: 100vh;*/
-    display: flex;
-    align-items: center;
-}
-
-
 
 .mymaincontainer {
     /*height: 100vh;*/
@@ -75,27 +39,26 @@ body {
    -moz-background-size: cover;
    -o-background-size: cover;
     background-size: cover;
-    /*min-height: 100vh;*/
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    width: 100%;
+    /*align-items: center;*/
+    position: relative;
 }
-
 
 /* Jumbotron */
 
 .jumbotron-background {
     /*background-color: #a02b2b00;*/
     background-color:transparent;
-    margin-bottom: 50%;
-    margin-top: 25%;
-    height: 480px;
+    margin-bottom: 16em;
+    /*margin-top: .8em;*/
     color: #000000;
 }
 
 .main-text {
     font-weight: 400;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .aboutmodalheader {
@@ -106,21 +69,19 @@ body {
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
+    /*border-radius: 23px;*/
+    width: 7em;
 }
 
 .btn--pnk {
     color: white;
-    /*background-color: #242c10;*/
     background-color: #840b5e;
     border-color: #840b5e;
-    /*border-color: #88c19a;*/
-    padding-top: 3%;
-    padding-bottom: 3%;
-    margin-top: 5px;
-    font-size: x-large;
-    border-radius: 100px;
+    padding-top: .7em;
+    padding-bottom: .7em;
+    margin-top: .8em;
+    font-size: 1.5em;
+    border-radius: 6em;
     border-width: medium;
 }
 
@@ -159,20 +120,20 @@ body {
 .myfooter {
     /*background-color:#242c10;*/
     background-color: transparent;
-    /*position: fixed;*/
-    /*left: 0;
-    bottom: 0;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
 }
 
 
 .footerheader {
     color: white;
-    font-weight: 400;
-    font-size: 120%;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 1.5rem;
+    font-weight: 300;
+    font-size: 1.5em;
+    */text-align: center;*/
+    /*margin-top: 10px;
+    margin-bottom: 1.5rem;*/
 }
 
 #social-media li {
@@ -181,20 +142,19 @@ body {
 }
 
 #social-media i {
-    font-size: 150%;
-    margin: 1%;
-    padding: 5%;
+    font-size: 1.7em;
+    margin: .4em;
+    padding: .4em;
     color:#f8f9fa;
 }
 
 #social-media a:hover {
-    /*font-size: 100%;*/
-    color:hsl(81, 100%, 67%);
+    /*color:hsl(81, 100%, 67%);*/
 }
 
 #social-media i:hover {
-    margin: 1%;
-    padding: 5%;
+    /*margin: 1%;*/
+    /*padding: 5%;*/
     color:hsl(81, 100%, 67%);
 }
 
@@ -254,7 +214,7 @@ body {
   }*/
 
   #social-media i {
-    font-size: 90%;
+    font-size: 1em;
   }
 
   .btn--footer {
@@ -271,7 +231,7 @@ body {
     margin-left: 8%;
   }
 
-   .btn--pnk {
+    *.btn--pnk {
     font-size: 24px;
     border-radius: 580px;
     padding: 2.5px;
