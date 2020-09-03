@@ -1,28 +1,19 @@
 html {
-    min-height: 100%;
 }
 
-body {
-    height: 100%;
-    
+body { 
 }
 
-#services-header {
-    color: #242c10;
-}
+
 
 /*Navigation*/
 
 .bg-custom-green {
-    /*background-color:#242c10;*/
-    /*background-color: #8e8e8e9c;*/
-    /*background-color: #b9626252;*/
     background-color: #4a503b61;
 }
 
 .navbar-menu {
-    font-size: 100%;
-    /*color: white;*/
+    font-size: .8em;
     color: #840b5e;
     list-style-type: none;
     margin-left: auto;
@@ -31,10 +22,10 @@ body {
 
 .branding {
     color:white;
-    font-size: 150;
+    font-size: 1em;
     font-weight: 600;
     text-decoration: none;
-    font-size: xx-large;
+    /*font-size: xx-large;*/
     letter-spacing: 2px;
     margin-right: 33%;
 }
@@ -46,7 +37,6 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    /*color: white;*/
     color: #840b5e;
 }
 
@@ -56,31 +46,33 @@ body {
     font-style: italic;
 }
 
-/* Services header */
+/* gallery header */
 
-.row {
-    margin-right: 0;
-    margin-left: 0;
+.galleryheader {
+    color: #82ce2efa;
 }
 
-.service-list-container {
-    /*background-color: rgb(243 190 217 / 25%);*/
-    color: #840b5e;
-    height: 100%;
+.testimonials-header {
+    color: #03352a;
 }
 
-.services-header {
-    background-color: white;
-    color: black;
-    margin-top: 80px;
-    /*height: 210px;*/
-    text-align: center;
+.testimonials1 {
+        background-color: #6495ed36;
+}
+
+.testimonials2 {
+        background-color: #dc79c226;
+}
+
+.testimonials3 {
+        background-color: #585a5f26;
+}
+
+.testimonials4 {
+        background-color: #edc36454;
 }
 
 
-.mark {
-    background-color: white;
-}
 
 
 /* Footer */
@@ -89,15 +81,12 @@ body {
     /*background-color:#242c10;*/
     /*background-color: #8e8e8e9c;*/
     background-color: transparent;
-    /*height: 110px;*/
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
 .footerheader {
-    /*color: white;*/
     color: #840b5e;
     font-weight: 400;
     font-size: 120%;
@@ -115,17 +104,14 @@ body {
     font-size: 150%;
     margin: 1%;
     padding: 5%;
-    /*color:#f8f9fa;*/
     color: #840b5e;
 }
 
 #social-media a:hover {
-    /*font-size: 100%;*/
     color:hsl(81, 100%, 67%);
 }
 
 #social-media i:hover {
-    /*font-size: 180%;*/
     margin: 1%;
     padding: 5%;
     color:hsl(81, 100%, 67%);
@@ -184,5 +170,65 @@ body {
 .newsletter {
     background-color:white;
     color:black;
+}
+
+
+/* /* /* /* /* /* /* /* MEDIA QUERIES /* /* /* /* /* /* /* /* 
+
+/* settings for mobile and tablet size*/
+
+@media screen and (max-width: 768px) { 
+  .navbar-menu,
+  .navbar-dark,
+  .navbar-nav,
+  .nav-link {
+    font-size: .7em;
+    letter-spacing: 0px;
+  }
+
+
+    .menucontainer{
+	  margin-top: 2em;
+  }
+
+
+  .form-wrapper {
+    font-size: 99%;
+  }
+
+  #navbarNav { 
+    font-size: 20%;
+  }
+
+  .left-footer,
+  .footerheader,
+  .input-group {
+    font-size: 95%;
+  }
+
+
+  #social-media i {
+    font-size: 90%;
+  }
+
+  .btn--footer {
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 2px;
+  }
+
+
+}
+
+/* settings for tablet size and pc/laptops */
+
+@media (min-width: 568px) {
+    
+}
+
+/* settings to fix footer issue for mobile size  */
+
+@media (max-width: 728px) {
+    
 }
 
