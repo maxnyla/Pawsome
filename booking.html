@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Paw-some: Dog walks and boarding </title>
+    <title>Paw-Some: Dog walks and boarding </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/booking.css" type="text/css">
 </head>
 
 <body>
-<!---------------------- Header (Navbar taken from Bootstrap documentation) ------------------------->
+<!----------------------/Header (Navbar taken from Bootstrap documentation) ------------------------->
 <header>
     <nav class="navbar custom-nav navbar-expand-sm navbar-dark bg-custom-green">
         <a class="navbar-brand logo" href="index.html">
@@ -55,62 +54,67 @@
 <!----------------------- /.Header ---------------------->
 
 <!----------------------- Booking  ---------------------->
-<section class="bookingform-section">
-    <div class="container content-container">
-        <div class="form-section">
-            <form action="/">
-                <div class="banner">
-                    <h1 class="form-wrapper">Book PawSome</h1>
+<div class="container content-container bookingform-section">
+        <div class="row">
+                <div class="col info-section">
+
                 </div>
-                <div class="item">
-                    <p>Date</p>
-                    <input type="date" 
-                            name="bdate" />
-                                <i class="fas fa-calendar-alt"></i>
+
+                <div class="col form-section">
+                    <form action="/">
+                        <div class="banner">
+                            <h1 class="form-wrapper">Book PawSome</h1>
+                        </div>
+                        <div class="item">
+                            <p>Date</p>
+                            <input type="date" 
+                                    name="bdate" />
+                                        <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="item">
+                            <p>Time</p>
+                            <input type="time" 
+                                    name="name" />
+                                        <!---<i class="fas fa-clock"></i>--->
+                        </div>
+                        <div class="item">
+                            <p>Select service required</p>
+                            <select>
+                                <option value="">*Please select*</option>
+                                <option value="1">Dog walk</option>
+                                <option value="2">Dog boarding</option>
+                                <option value="3">Home visit</option>
+                            </select>
+                        </div>
+                        <div class="item">
+                            <p>Description of services required or special requests such as more than one pet, multiple days, etc</p>
+                            <textarea rows="3" ></textarea>
+                        </div>
+                    
+                        <div class="item">
+                            <p>Contact details</p>
+                            <div class="name-item">
+                                <input type="text" name="name" placeholder="First name" />
+                                <input type="text" name="name" placeholder="Last name" />
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p>Contact Email</p>
+                            <input type="text" name="name"/>
+                        </div>
+                        <div class="item">
+                            <p>Contact Number</p>
+                            <input type="text" name="name"/>
+                        </div>
+                        
+                        <div class="btn-block">
+                            <button class="btn-booking" type="submit" href="/">SEND</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="item">
-                    <p>Time</p>
-                    <input type="time" 
-                            name="name" />
-                                <!---<i class="fas fa-clock"></i>--->
-                </div>
-                <div class="item">
-                    <p>Select service required</p>
-                    <select>
-                        <option value="">*Please select*</option>
-                        <option value="1">Dog walk</option>
-                        <option value="2">Dog boarding</option>
-                        <option value="3">Home visit</option>
-                    </select>
-                </div>
-                <div class="item">
-                    <p>Description of services required or special requests such as more than one pet, multiple days, etc</p>
-                    <textarea rows="3" ></textarea>
-                </div>
-            
-                <div class="item">
-                    <p>Contact details</p>
-                    <div class="name-item">
-                        <input type="text" name="name" placeholder="First name" />
-                        <input type="text" name="name" placeholder="Last name" />
-                    </div>
-                </div>
-                <div class="item">
-                    <p>Contact Email</p>
-                    <input type="text" name="name"/>
-                </div>
-                <div class="item">
-                    <p>Contact Number</p>
-                    <input type="text" name="name"/>
-                </div>
-                
-                <div class="btn-block">
-                    <button class="btn-booking" type="submit" href="/">SEND</button>
-                </div>
-            </form>
         </div>
     </div>
-</section>
+
 <!----------------------- /.Booking  ---------------------->
 
 <!---------------------- Footer ------------------------->

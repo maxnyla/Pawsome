@@ -25,7 +25,6 @@ body {
     font-size: 1em;
     font-weight: 600;
     text-decoration: none;
-    /*font-size: xx-large;*/
     letter-spacing: 2px;
     margin-right: 33%;
 }
@@ -78,8 +77,6 @@ body {
 /* Footer */
 
 .myfooter {
-    /*background-color:#242c10;*/
-    /*background-color: #8e8e8e9c;*/
     background-color: transparent;
     left: 0;
     bottom: 0;
@@ -184,11 +181,6 @@ body {
   .nav-link {
     font-size: .7em;
     letter-spacing: 0px;
-  }
-
-
-    .menucontainer{
-	  margin-top: 2em;
   }
 
 

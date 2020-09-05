@@ -1,10 +1,10 @@
 html {
-    min-height: 100%;
+    /*min-height: 100%;*/
 }
 
 body {
     /*min-height: 100%;*/
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 
 #services-header {
@@ -56,10 +56,11 @@ body {
 
 /* Booking header */
 
+/*
 .row {
     margin-right: 0;
     margin-left: 0;
-}
+}*/
 
 
 .bookingform-section {
@@ -67,21 +68,15 @@ body {
     min-height: 100vh;
 }
 
-.menucontainer {
-    justify-content: space-evenly;
-    /*height: 50vh;*/
-}
 
 /* Footer */
 
 .myfooter {
-    /*background-color:#242c10;*/
-    /*background-color: #8e8e8e9c;*/
     background-color: transparent;
     /*height: 110px;*/
     /*position: fixed;*/
     left: 0;
-    bottom: 0;
+    /*bottom: 0;*/
     width: 100%;
 }
 

@@ -171,7 +171,7 @@ body {
 /* settings for mobile and tablet size*/
 
 @media (min-width: 576px)
-    .navbar-expand-sm {
+   .navbar-expand-sm {
       -ms-flex-flow: row nowrap;
        flex-flow: row nowrap;
        -ms-flex-pack: start;
