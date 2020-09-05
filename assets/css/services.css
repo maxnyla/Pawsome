@@ -1,4 +1,5 @@
 html {
+    overflow-x: hidden;
 }
 
 body { 
@@ -64,8 +65,6 @@ body {
 .services-header {
     background-color: white;
     color: black;
-    /*margin-top: 90px;*/
-    /*height: 220px;*/
     text-align: center;
 }
 
@@ -75,49 +74,36 @@ body {
 
 .menucontainer {
     justify-content: space-evenly;
-    /*height: 650px;*/
-    /*margin-top: 30px;*/
 }
 
 .menu-visits {
-    /*height: 100%;*/
     text-decoration: none;
-    /*margin-top: 15px;*/
 }
 
 .menu-walking {
-    /*height: 100%;*/
     text-decoration: none;
-    /*margin-top: 15px;*/
 }
 
 .menu-boarding {
-    /*height: 100%;*/
     text-decoration: none;
-    /*margin-top: 15px;*/
 }
 
 .menu-title1 {
     text-align: center;
     text-emphasis-color: white;
     color: #242c10;
-    /*margin-bottom: 1rem;*/
 }
 
 .menu-title2 {
     text-align: center;
     text-emphasis-color: white;
     color: #242c10;
-    /*color:#840b5e;*/
-    /*margin-bottom: 1rem;*/
 }
 
 .menu-title3 {
     text-align: center;
     text-emphasis-color: white;
     color: #242c10;
-    /*color: hsl(81deg 59% 39%);*/
-   /* margin-bottom: 1rem;*/
 }
 
 .mark {
@@ -148,7 +134,6 @@ body {
 .services-block2 {
     background-color: white;
     padding: 7%;
-    
 }
 
 .services-block3 {
@@ -282,11 +267,6 @@ body {
 
     .menucontainer{
 	  margin-top: 2em;
-  }
-
-
-  .form-wrapper {
-    font-size: 99%;
   }
 
   .btn-booking {

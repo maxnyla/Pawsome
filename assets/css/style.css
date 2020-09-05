@@ -1,5 +1,9 @@
 
-html { 
+.info-section ul li{
+    list-style: none;
+}
+html {
+    overflow-x: hidden;
 }
 
 body {
@@ -187,9 +191,6 @@ body {
     letter-spacing: 0px;
   }
 
-  .form-wrapper {
-    font-size: 99%;
-  }
 
   .btn-booking {
     font-size: 90%;
