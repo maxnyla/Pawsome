@@ -21,23 +21,9 @@ body {
     color: #840b5e;
     list-style-type: none;
     margin-left: auto;
-    letter-spacing: 2px;
+    letter-spacing: .1em;
 }
 
-.branding {
-    color:white;
-    font-size: 1em;
-    font-weight: 600;
-    text-decoration: none;
-    letter-spacing: 2px;
-    margin-right: 33%;
-}
-
-.branding:hover {
-    color:hsl(81, 100%, 67%);
-    text-decoration: none;
-    font-style: italic;
-}
 
 .navbar-dark .navbar-nav .nav-link {
     color: #840b5e;
@@ -60,10 +46,10 @@ body {
     /*color: #212529*/
 }
 
-
 .info-section ul li{
     list-style: none;
 }
+
 .bookingform-section {
     background-color: #4a5a4714;
     min-height: 100vh;
@@ -103,12 +89,10 @@ body {
 }
 
 #social-media a:hover {
-    /*font-size: 100%;*/
     color:hsl(81, 100%, 67%);
 }
 
 #social-media i:hover {
-    /*font-size: 180%;*/
     margin: 1%;
     padding: 5%;
     color:hsl(81, 100%, 67%);
@@ -198,16 +182,16 @@ form-section {
 }
 
 .form-wrapper {
-      color:#840b5e;
+    color:#840b5e;
 }
 
-.banner::after {
-      content: "";
-      /*background-color: rgba(0, 0, 0, 0.5);*/
-      position: absolute;
-      width: 100%;
-      height: 100%;
-}
+/*.banner::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     /*background-color: rgba(0, 0, 0, 0.5);*/
+
 
 .content-container{
     height: 700px;
@@ -326,7 +310,7 @@ button:hover {
   .navbar-dark,
   .navbar-nav,
   .nav-link {
-    font-size: 70%;
+    font-size: .7em;
     letter-spacing: 0px;
   }
 
