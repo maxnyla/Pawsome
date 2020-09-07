@@ -25,26 +25,34 @@ The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/)
 
 # UX
 
-My aim was to have a clean, uncluttered and responsive site with a very simple home page where the main feature is a background photo
-that covers the full viewport and sets the tone for the rest of the site. The goal is to showcase the services and use bright, happy
-colours that are also close to nature.
+My aim was to have a clean, uncluttered and responsive site with a very simple home page where the main feature is a relevant and scenic background photo
+that covers the full viewport and sets the tone for the rest of the site. 
+The goal is to showcase the services offered and use bright, happy colours that are also close to nature. 
+The header and footer design carries through the site on all pages for continuity. 
  
-- Home page: 
-
+- Home page:
+The home page design is very simple: the main feature is a relevant and scenic background photo
+that covers the full viewport. The goal is to showcase the services offered and use bright, happy colours that are also close to nature.
+In the center is a jumbotron that includes an 'About Me' section which is accessed through a modal window.
+There is also a form to submit a request to receive the newsletter.
 
 - Services page: 
-
+The simple and responsive layout is achieved by using a grid system with different areas for a list of the 
+services offered and also some photos to enhance the visual experience. The prices section can be accessed as 
+a separate modal which opens in a new pop-up window.
 
 - Gallery page: 
-
+The main feature of the gallery page is an image carousel which is, again, inside a grid system. This also includes 
+an area with testimonies from customers that have used the business.
 
 - Booking page: 
+The booking page follows the theme with a grid system, which includes some information with contact details and a map as well as a
+booking form. The contact details include a telephone number and email address that can be clicked through for a seamless experience.
 
 
 
 
-
-![Responsive image with many different monitors](assets/images/responsive.png)
+![Image containing example of responsiveness within several screens](assets/images/responsive.png)
 
 Due to having a few large images on the site which took long to load and for the purpose of improving user experience, I have compressed the images using [tinypng.com](https://tinypng.com/) 
 Total reduction in image size has been 53% (7MB).
@@ -59,24 +67,23 @@ Total reduction in image size has been 53% (7MB).
 
 Users:
 
-- As a user, I'd like to 
-
-- As a user, I'd like to 
-
-- As a user, I'd like to 
-
-- As a user, I'd like to 
-
+- As a user, I'd like to get a feel for the sort of person the business owner is, to ascertain if I can trust them
+with the care of my dogs and, potentially, access to my home.
+- As a user, I'd like to see the location of the business and the areas covered by them.
+- As a user, I'd like to see the different types of services that the business offers, including full pricing details.
+- As a user, I'd like to see photos and social media posts showing the business as it operates on a daily basis.
+- As a user, I'd like to see reviews by other customers.
+- As a user, I'd like to be able to book online without needing to make a phone call.
+- As a user, I'd like to be able to click the contact number and email to contact the business straight away if I so wish.
 
 PawSome business owners:
 
-- As a business owner, I'd like to 
-
-- As a business owner, I'd like to 
-
-- As a business owner, I'd like to 
-
-- As a business owner, I'd like to 
+- As a business owner, I'd like to show potential customers that they can trust me with their pets. Since I am a dog owner
+myself, I know how important the trust factor is. This is achieved through the information in the 'About Me' section.
+- As a business owner, I'd like for potential customers to have a very clear idea of all the services I offer and pricing,
+as well as the areas covered.
+- As a business owner, I want to offer customers the possibility of sending a booking enquiry via the site. 
+- As a business owner, I'd like to share a glimpse of our life through our social media posts.
 
 
 # Testing
