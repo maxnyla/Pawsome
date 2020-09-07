@@ -1,39 +1,82 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<<p align="center">
+  <img src="assets/images/logo.png" 
+alt="PawSome logo"/>
+</p>
 
-Welcome maxnyla,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+# Description
 
-## Gitpod Reminders
+*Note: This site portrays a fictitious business, created purely for the purpose of this exercise*
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+PawSome is a pet services company, offering dog walking and boarding services as well as home visits in the customer's home.
+It was created by a dog owner who understands how difficult it is to leave your four legged family member behind when you need 
+to be away for a long time. It's vital to know that your pet will be well taken care of and in safe hands, which is what
+this site is trying to convey and offer.
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+# Deployment and Demo
 
-Another blue button should appear to click: *Open Browser*.
+This website has been deployed to [GitHub Pages](https://maxnyla.github.io/Pawsome/index.html)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Wireframe
 
-A blue button should appear to click: *Make Public*,
+The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) 
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+# UX
 
-## Updates Since The Instructional Video
+My aim was to have a clean, uncluttered and responsive site with a very simple home page where the main feature is a background photo
+that covers the full viewport and sets the tone for the rest of the site. The goal is to showcase the services and use bright, happy
+colours that are also close to nature.
+ 
+- Home page: 
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Services page: 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Gallery page: 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+- Booking page: 
 
-Happy coding!
+
+
+
+
+![Responsive image with many different monitors](assets/images/responsive.png)
+
+Due to having a few large images on the site which took long to load and for the purpose of improving user experience, I have compressed the images using [tinypng.com](https://tinypng.com/) 
+Total reduction in image size has been 53% (7MB).
+
+![tinypng image size saving results](assets/images/compression_results.png)
+
+# Visual Identity
+
+- [LogoMakr](https://logomakr.com/) was used for the logo design.
+
+# User Stories
+
+Users:
+
+- As a user, I'd like to 
+
+- As a user, I'd like to 
+
+- As a user, I'd like to 
+
+- As a user, I'd like to 
+
+
+PawSome business owners:
+
+- As a business owner, I'd like to 
+
+- As a business owner, I'd like to 
+
+- As a business owner, I'd like to 
+
+- As a business owner, I'd like to 
+
+
+# Testing
