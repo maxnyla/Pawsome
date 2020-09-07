@@ -50,8 +50,6 @@ The booking page follows the theme with a grid system, which includes some infor
 booking form. The contact details include a telephone number and email address that can be clicked through for a seamless experience.
 
 
-
-
 ![Image containing example of responsiveness within several screens](assets/images/responsive.png)
 
 Due to having a few large images on the site which took long to load and for the purpose of improving user experience, I have compressed the images using [tinypng.com](https://tinypng.com/) 
@@ -87,3 +85,37 @@ as well as the areas covered.
 
 
 # Testing
+
+This website has been tested through the GTMetrix site, [GTmetrix](https://gtmetrix.com/reports/maxnyla.github.io/EKEXs42Q).
+Below is a screenshot of the results achieved. Page speed score was 94% and the time to fully load the site was 1.7s.
+
+![Website Speed Test Results](assets/images/speed_test.png)
+
+
+# Technologies
+
+- [Bootstrap](https://getbootstrap.com)
+- [FontAwesome](https://fontawesome.com)
+- [Cloudflare] (https://www.cloudflare.com) Used for the scripts
+- [Google APIs] (https://www.googleapis.com) Used for the scripts
+
+
+# Media
+
+I have taken advantage of several useful resources for images and my logo. Please see below:
+
+- [Logo Makr](https://logomakr.com/) for the logo design.
+- [Unsplash](https://unsplash.com) for some of the images. most of the images used were my own.
+- [Font Awesome](https://fontawesome.com/6?next=%2Fstart) for the icons used on this project.
+- [Am I Responsive](http://ami.responsivedesign.is/) for the image used in the UX section showing the different screen sizes.
+
+# With thanks to
+
+All the different resources and sites that are out there, with their respective communities. I will list them below:
+
+- Bootstrap
+- Git Hub and Git Pod
+- Font Awesome
+- jQuery developers
+- Unsplash.com
+- LogoMakr
