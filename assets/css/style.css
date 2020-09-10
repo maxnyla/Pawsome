@@ -34,7 +34,6 @@ body {
 /*Containers*/
 
 .mymaincontainer {
-    /*height: 100vh;*/
     background: url("../images/newmain.jpg") no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -52,7 +51,7 @@ body {
 .jumbotron-background {
     /*background-color: #a02b2b00;*/
     background-color:transparent;
-    margin-bottom: 16em;
+    /*margin-bottom: 16em;*/
     /*margin-top: .8em;*/
     color: #000000;
 }
