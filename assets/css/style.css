@@ -61,9 +61,22 @@ body {
     /*text-align: center;*/
 }
 
-.aboutmodalheader {
+
+/* Jumbotron Modal*/
+
+.jumbotron-modal-header {
     text-align: center;
+    background-color: #f8f9fa;
+    color: #827c51;
+    font-weight: 600;
+    font-size: 1.5em;
 }
+
+.jumbotron-modal-body {
+    color: white;
+     background-color: #827c51;
+}
+
 
 /*Buttons*/
 
@@ -113,6 +126,14 @@ body {
 .newsletter {
     background-color:white;
     color:black;
+}
+
+.btn--green {
+    background-color: #f8f9fa;
+    color: #827c51;
+    font-weight: 600;
+    font-size: 1.5em;
+
 }
  
 /* Footer */
