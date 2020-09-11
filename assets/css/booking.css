@@ -1,79 +1,5 @@
 
-html {
-    overflow-x: hidden;
-}
 
-body {
-}
-
-#services-header {
-    color: #242c10;
-}
-
-/*Navigation*/
-
-.bg-custom-green {
-    background-color: #4a503b61;
-}
-
-.navbar-menu {
-    font-size: .8em;
-    color: #840b5e;
-    list-style-type: none;
-    margin-left: auto;
-    letter-spacing: .1em;
-}
-
-
-.navbar-dark .navbar-nav .nav-link {
-    color: #840b5e;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-    color:hsl(81, 100%, 67%);
-    text-decoration: none;
-    font-style: italic;
-}
-
-/* Booking header */
-
-.booking-title1 {
-    color: #840b5e;
-}
-
-.booking-title2 {
-    color: #82ce2efa;
-    /*color: #212529*/
-}
-
-.info-section ul li{
-    list-style: none;
-}
-
-.bookingform-section {
-    background-color: #4a5a4714;
-    min-height: 100vh;
-}
-
-
-/* Footer */
-
-.myfooter {
-    background-color: transparent;
-    /*position: fixed;*/
-    left: 0;
-    /*bottom: 0;*/
-    width: 100%;
-}
-
-.footerheader {
-    color: #840b5e;
-    font-weight: 400;
-    font-size: 120%;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 1.5rem;
-}
 
 #social-media li {
     display: inline;
@@ -131,7 +57,7 @@ body {
 
 /*-----------------------------------*/
 
-.form-section {
+.bookingform-section {
     clear: left;
     background-size: cover;
     /*height: 900px;*/
@@ -181,7 +107,7 @@ form-section {
     background-color: #4a5a4714;
 }
 
-.form-wrapper {
+.bookingform-wrapper {
     color:#840b5e;
 }
 
@@ -307,11 +233,11 @@ button:hover {
     letter-spacing: 0px;
   }
 
-  .form-wrapper {
+  .bookingform-wrapper {
     font-size: 1.2em;
   }
 
-  .btn-booking {
+  .btn--booking {
     font-size: 90%;
     width: 60px;
     padding: 5px;
