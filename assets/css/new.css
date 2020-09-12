@@ -6,6 +6,10 @@ body {
     height: 0;
 }
 
+ul.info-text2 {
+    list-style: none;
+}
+
 /*Navigation*/
 
 .bg-custom-green {
@@ -76,69 +80,6 @@ body {
      background-color: #827c51;
 }
 
-
-/*Buttons*/
-
-.btn--cta {
-    font-weight: bold;
-    /*border-radius: 23px;*/
-    width: 7em;
-}
-
-.btn--pnk {
-    color: white;
-    background-color: #840b5e;
-    border-color: #840b5e;
-    padding-top: .7em;
-    padding-bottom: .7em;
-    margin-top: .8em;
-    font-size: 1.5em;
-    border-radius: 6em;
-    border-width: medium;
-}
-
-.btn--pnk:hover,
-.btn--pnk:active,
-.btn--pnk:focus
-.btn--pnk:active:focus {
-    color:hsl(81, 100%, 67%);
-    background-color:#242c10;
-    border-color:hsl(81, 100%, 67%);
-}
-
-.btn--green {
-    background-color:#242c10;
-    color: white;
-}
-
-.btn--footer {
-    color:white;
-    background-color: #840b5e;
-    border-color: #840b5e;
-    font-style: bold;
-}
-
-.btn--footer:hover,
-.btn--footer:active,
-.btn--footer:focus
-.btn--footer:active:focus {
-    color:hsl(81, 100%, 67%);
-    background-color:#242c10;
-    border-color:hsl(90, 100%, 0%);
-}
-
-.newsletter {
-    background-color:white;
-    color:black;
-}
-
-.btn--green-home {
-    background-color: #f8f9fa;
-    color: #827c51;
-    font-weight: 600;
-    font-size: 1.5em;
-
-}
  
 /* Footer */
 
@@ -205,6 +146,194 @@ body {
 
 .mark-home {
     background-color: #584c0b69;
+}
+
+
+/*Buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    /*border-radius: 23px;*/
+    width: 7em;
+}
+
+.btn--pnk {
+    color: white;
+    background-color: #840b5e;
+    border-color: #840b5e;
+    padding-top: .7em;
+    padding-bottom: .7em;
+    margin-top: .8em;
+    font-size: 1.5em;
+    border-radius: 6em;
+    border-width: medium;
+}
+
+.btn--pnk:hover,
+.btn--pnk:active,
+.btn--pnk:focus
+.btn--pnk:active:focus {
+    color:hsl(81, 100%, 67%);
+    background-color:#242c10;
+    border-color:hsl(81, 100%, 67%);
+}
+
+.btn--green {
+    background-color:#242c10;
+    color: white;
+}
+
+.btn--footer {
+    color:white;
+    background-color: #840b5e;
+    border-color: #840b5e;
+    font-style: bold;
+}
+
+.btn--footer:hover,
+.btn--footer:active,
+.btn--footer:focus
+.btn--footer:active:focus {
+    color:hsl(81, 100%, 67%);
+    background-color:#242c10;
+    border-color:hsl(90, 100%, 0%);
+}
+
+.newsletter {
+    background-color:white;
+    color:black;
+}
+
+.btn--green-home {
+    background-color: #f8f9fa;
+    color: #827c51;
+    font-weight: 600;
+    font-size: 1.5em;
+
+}
+
+.btn--pnk-prices {
+    color: white;
+    background-color: #840b5e;
+    border-color: #840b5e;
+    /*padding-top: 1.5%;
+    padding-bottom: 1.5%;*/
+    margin-top: 5px;
+    font-size: x-large;
+    border-radius: 60px;
+    border-width: medium;
+}
+
+.btn--pnk-prices:hover,
+.btn--pnk-prices:active,
+.btn--pnk-prices:focus
+.btn--pnk-prices:active:focus {
+    color:hsl(81, 100%, 67%);
+    background-color:#242c10;
+    border-color:hsl(81, 100%, 67%);
+}
+
+
+
+
+/*Services page*/
+
+#services-header {
+    color: #242c10;
+}
+
+.servicesrow {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.service-list-container {
+    background-color: #4a5a4714;
+    color: #840b5e;
+}
+
+.services-header {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.services-title {
+    color: #840b5e;
+}
+
+.servicemenucontainer {
+    justify-content: space-evenly;
+}
+
+.menu-visits {
+    text-decoration: none;
+}
+
+.menu-walking {
+    text-decoration: none;
+}
+
+.menu-boarding {
+    text-decoration: none;
+}
+
+.services-menu-title1 {
+    text-align: center;
+    text-emphasis-color: white;
+    color: #242c10;
+}
+
+.services-menu-title2 {
+    text-align: center;
+    text-emphasis-color: white;
+    color: #242c10;
+}
+
+.services-menu-title3 {
+    text-align: center;
+    text-emphasis-color: white;
+    color: #242c10;
+}
+
+/*.mark {
+    background-color: white;
+}*/
+
+.services-text1 {
+    color: hsl(244deg 59% 39%);
+    font-size: 1.1em;   
+}
+
+.services-text2 {
+    color: hsl(81deg 59% 39%);
+    font-size: 1.1em; 
+}
+
+.services-text3 {
+    color: hsl(338deg 85% 41%);
+    font-size: 1.1em; 
+}
+
+
+.services-block1 {
+    background-color: white;
+    padding: 7%;
+}
+
+.services-block2 {
+    background-color: white;
+    padding: 7%;
+}
+
+.services-block3 {
+    background-color: white;
+    padding: 7%;
+}
+
+.prices {
+    color: black;
+    font-size: 80%;
 }
 
 
@@ -417,12 +546,11 @@ button {
 
 
 
-
 /* /* /* /* /* /* /* /* MEDIA QUERIES /* /* /* /* /* /* /* /* 
 
 /* settings for mobile and tablet size*/
 
-@media (min-width: 576px) {
+@media (min-width: 576px) 
    .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -439,7 +567,7 @@ button {
     letter-spacing: 0px;
   }
 
- .bookingform-wrapper {
+  .bookingform-wrapper {
     font-size: 1.2em;
   }
 
@@ -489,7 +617,16 @@ button {
     padding: 2.5px;
   }
 
-}
+  .menu-visits,
+  .menu-walking,
+  .menu-boarding {
+	margin-top: 1.3em;
+  }
+
+  .servicemenucontainer {
+	margin-top: 2em;
+  }
+
 
 
 
