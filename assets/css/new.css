@@ -6,9 +6,6 @@ body {
     height: 0;
 }
 
-ul.info-text2 {
-    list-style: none;
-}
 
 /*Navigation*/
 
@@ -61,7 +58,8 @@ ul.info-text2 {
 
 .main-text {
     font-weight: 400;
-    /*text-align: center;*/
+    font-size: 3.2em;
+    text-align: center;
 }
 
 
@@ -345,8 +343,8 @@ ul.info-text2 {
 }
 
 .booking-title2 {
-    color: #82ce2efa;
-    /*color: #212529*/
+    text-transform: uppercase;
+    color: #840b5e;
 }
 
 .info-section {
@@ -355,6 +353,12 @@ ul.info-text2 {
 
 .info-section ul li{
     list-style: none;
+    color: #4a5207;
+}
+
+
+.info-sect2 {
+    padding: 2em;
 }
 
 .bookingform-section {
@@ -366,12 +370,18 @@ ul.info-text2 {
     /*background-color: #da6ab22b;*/
 }
 
+ul.info-text2 {
+    list-style: none;
+    padding: .8em;
+    color: #4a5207;
+}
+
 
 /*Booking page containers*/
 
-
 .booking-head-container {
     background-color: #da6ab22b;
+    background-color: #c163a017;
     color:#0d1304;
 }
 
@@ -379,11 +389,23 @@ ul.info-text2 {
     background-color: white;
 }
 
-.booking-contact-container {
-    /*background-color:thistle;*/
-
+.main-bookingrow {
+    background-color: #00000080;
+    background-color: #c9ccb580;
+    padding: 3em;
 }
 
+.booking-contact-container {
+   background-color: #da6ab22b;
+   background-color: #c163a017;
+   padding: 3em;
+}
+
+.contact-details {
+    background-color: #fbfbfb;
+    text-align: center;
+    padding: 1em;
+}
 
 /*Booking page form*/
 
@@ -550,7 +572,7 @@ button {
 
 /* settings for mobile and tablet size*/
 
-@media (min-width: 576px) 
+@media (min-width: 576px) }
    .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -558,12 +580,12 @@ button {
     justify-content: flex-start;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
   .navbar-menu,
   .navbar-dark,
   .navbar-nav,
   .nav-link {
-    font-size: .7em;
+    font-size: .8em;
     letter-spacing: 0px;
   }
 
@@ -604,7 +626,7 @@ button {
   }
 
   .main-text {
-    font-size: 2rem;
+    font-size: 2.5em;
   }
 
   .jumbotron-background {
@@ -628,6 +650,11 @@ button {
   }
 
 
+
+@media screen and (min-width: 900px)
+   .main-text {
+    font-size: 3.2em;
+   }
 
 
 /* settings for tablet size and pc/laptops */
