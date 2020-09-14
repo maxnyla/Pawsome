@@ -239,7 +239,16 @@ body {
 
 /* GALLERY page */
 
-.galleryheader {
+.gallery-header-row {
+    padding-top: 1em;
+    padding-bottom: .9em;
+}
+
+.carousel-row {
+    /*padding: 1em;*/
+}
+
+.gallery-header {
     /*color: #82ce2efa;*/
     color: #0d1304;
     background-color: #c163a017;
@@ -282,9 +291,33 @@ body {
         background-color: #edc36454;
 }
 
+.testimonials-text1,
+.testimonials-text2,
+.testimonials-text3,
+.testimonials-text4 {
+    padding: .7em;
+}
 
+.booking-link-row{
+    padding: 2em;
+    color: #0d1304;
+    background-color: #c163a017;
+}
 
+.booking-link-text {
 
+}
+
+.booking-link-button {
+    background: #03352abd;
+}
+
+.booking-link a {
+    color: white;
+    text-transform:uppercase;
+    font-style:italic
+    font-weight: 500;
+}
 
 /* SERVICES page */
 
