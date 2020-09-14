@@ -246,7 +246,17 @@ body {
     border-color:hsl(81, 100%, 67%);
 }
 
-.booking-link-button {
+.booking-link-button a:hover,
+.booking-link-button a:active,
+.booking-link-button a:focus
+.booking-link-button a:active:focus {
+    color:hsl(81, 100%, 67%);
+    background-color:#242c10;
+    border-color:hsl(81, 100%, 67%);
+}
+
+.booking-link-button,
+.booking-link-button a {
     text-decoration: none;
 }
 
