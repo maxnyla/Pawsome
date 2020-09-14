@@ -7,11 +7,17 @@ body {
 }
 
 
-/*Navigation*/
+/* Navigation */
 
 .bg-custom-green {
     background-color: #4a503b61;
 }
+
+.logo {
+    width: 200px;
+    height: 70px;
+}
+
 
 .navbar-menu {
     font-size: .8em;
@@ -31,7 +37,7 @@ body {
     font-style: italic;
 }
 
-/*Containers*/
+/* Containers */
 
 .mymaincontainer {
     background: url("../images/newmain.jpg") no-repeat center center fixed;
@@ -63,7 +69,7 @@ body {
 }
 
 
-/* Jumbotron Modal*/
+/* Jumbotron Modal */
 
 .jumbotron-modal-header {
     text-align: center;
@@ -147,7 +153,7 @@ body {
 }
 
 
-/*Buttons*/
+/* Buttons */
 
 .btn--cta {
     font-weight: bold;
@@ -231,10 +237,56 @@ body {
     border-color:hsl(81, 100%, 67%);
 }
 
+/* GALLERY page */
+
+.galleryheader {
+    /*color: #82ce2efa;*/
+    color: #0d1304;
+    background-color: #c163a017;
+    padding: 1.5em;
+}
+
+.reviews {
+    padding: 1.5em;
+}
+
+.testimonials-header {
+    background-color:#c9ccb580;
+    padding: 1em;
+}
+
+.testimonials-title {
+    color: #03352a;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1.5rem;
+}
+
+.testimonials {
+    padding: 1em;
+}
+
+.testimonials1 {
+        background-color: #6495ed36;
+}
+
+.testimonials2 {
+        background-color: #dc79c226;
+}
+
+.testimonials3 {
+        background-color: #585a5f26;
+}
+
+.testimonials4 {
+        background-color: #edc36454;
+}
 
 
 
-/*Services page*/
+
+
+/* SERVICES page */
 
 #services-header {
     color: #242c10;
@@ -335,7 +387,7 @@ body {
 }
 
 
-/*Booking page header*/
+/* BOOKING page header*/
 
 .booking-title1 {
     /*color: #840b5e;*/
@@ -377,7 +429,7 @@ ul.info-text2 {
 }
 
 
-/*Booking page containers*/
+/* BOOKING page containers*/
 
 .booking-head-container {
     background-color: #da6ab22b;
@@ -407,7 +459,7 @@ ul.info-text2 {
     padding: 1em;
 }
 
-/*Booking page form*/
+/* BOOKING page form*/
 
 
 .bookingform-section {
@@ -570,15 +622,28 @@ button {
 
 /* /* /* /* /* /* /* /* MEDIA QUERIES /* /* /* /* /* /* /* /* 
 
+/* settings for mobile size*/
+
+@media screen and (max-width: 500px) {
+    .logo {
+      width: 125px;
+      height: 40px;
+    }
+}
+
+
 /* settings for mobile and tablet size*/
 
-@media (min-width: 576px) }
+@media screeen and (min-width: 576px) {
    .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     -ms-flex-pack: start;
     justify-content: flex-start;
+   }
 }
+
+/* settings for tablet and small laptop/desktop size*/ 
 
 @media screen and (max-width: 768px) {
   .navbar-menu,
@@ -650,17 +715,18 @@ button {
   }
 
 
+/* settings for larger pc/laptop screens */
 
-@media screen and (min-width: 900px)
+@media screen and (min-width: 900px) {
    .main-text {
-    font-size: 3.2em;
+     font-size: 3.2em;
    }
 
+}
 
-/* settings for tablet size and pc/laptops */
 
 /*
-@media (min-width: 568px) {
+@media (min-width: 1000px) {
     .name-item {
       display: flex;
       flex-wrap: wrap;
