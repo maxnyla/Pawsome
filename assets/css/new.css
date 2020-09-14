@@ -237,7 +237,18 @@ body {
     border-color:hsl(81, 100%, 67%);
 }
 
+.booking-link-button:hover,
+.booking-link-button:active,
+.booking-link-button:focus
+.booking-link-button:active:focus {
+    color:hsl(81, 100%, 67%);
+    background-color:#242c10;
+    border-color:hsl(81, 100%, 67%);
+}
 
+.booking-link-button {
+    text-decoration: none;
+}
 
 /* SERVICES page */
 
