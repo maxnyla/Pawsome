@@ -51,10 +51,10 @@
 
 <!----------------------- Services page header ---------------------->
 <div class="container">
-<div class="row servicesrow">
-        <div class="col-md-12 mb-5">
-            <div class="row servicesrow no-gutters">
-                <div class="col heading services-header">
+<div class="row services-main">
+        <div class="col-md-12">
+            <div class="row services-row">
+                <div class="col heading services-header mb-3">
                     <br>
                     <h2 class="services-title">
                         PawSome Services
@@ -66,8 +66,7 @@
                             class="btn btn-lg btn--cta btn--pnk btn--pnk-prices" 
                             data-toggle="modal" 
                             data-target="#modalPrices">
-                                <i class="fas fa-paw" 
-                                    style="font-size:150%;">
+                                <i class="fas fa-paw icon-prices">
                                 </i> Prices
                         </button>
                             <!-- Modal: modalPrices-->
@@ -81,29 +80,22 @@
                             <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" 
                                 role="document">
                                 <!--Content-->
-                                <div class="row price-modal modal-content">
-                                    <div class="col ml-3 mr-3">
+                                <div class="row no-gutters price-modal modal-content">
+                                    <div class="col">
                                             <!--Header-->
-                                            <div class="modal-header">
-                                                <p class="heading">Prices</p>
-                                                    <button type="button" 
-                                                            class="close" 
-                                                            data-dismiss="modal" 
-                                                            aria-label="Close">
-                                                                    <span aria-hidden="true" 
-                                                                        class="white-text">&times;
-                                                                    </span>
-                                                    </button>
+                                            <div class="modal-header jumbotron-modal-header justify-content-center">
+                                                <p class="heading prices-modalheader">Prices</p>
                                             </div>
                                     </div>
                                     <!--Body-->
                                     <div class="modal-body">
                                         <div class="row">
                                             <div class="col-12">
-                                                <p>Visits: £10 for a 30 minute drop-in.</p>
-                                                <p>Group walks: £10 for 30 minutes and £13 for 60 minutes.</p>
-                                                <p>Individual walks: £14 for 30 minutes and £16 for 60 minutes.</p>
-                                                <p class="text-secondary">
+                                                <p class="visits-text">Visits: 30 minute drop-in £10</p>
+                                                <p class="walks-text">Group walks: 30 minutes £10 / 60 minutes £14</p>
+                                                <p class="walks-text">Individual walks: 30 minutes £14 / 60 mimutes £18</p>
+                                                <p class="boarding-text">Boarding: 24 hours £30</p>
+                                                <p class="discount-text">
                                                     <small>*50% discount for second pet in household on walks and boarding.</small>
                                                 </p>               
                                             </div>
@@ -112,7 +104,7 @@
                                     <!--Modal Footer-->
                                     <div class="modal-footer justify-content-center">
                                         <a type="button" 
-                                            class="btn--green waves-effect" 
+                                            class="btn--green-home" 
                                             data-dismiss="modal">Close
                                         </a>
                                     </div>
@@ -130,7 +122,7 @@
 <!--------------------------- /Main area  ---------------------------->
     <section class="container service-list-container">
                 <div class="row servicesrow servicemenucontainer mt-4">
-                            <div class="col-md-4 mt-3 menu-visits">
+                            <div class="col-md-4 menu-visits">
                                     <h3 class="services-menu-title1">
                                         <strong>Visits</strong>
                                     </h3>
@@ -139,11 +131,11 @@
                                         <p class="services-text1">Do you need to leave your pet at home for long periods? 
                                             We can pop in for a 30 minute visit(s) to provide company and cuddles, top up their water and make sure they're well. 
                                             We can administer medication if required and we also offer this service for cats and other small animals. 
-                                            This is ideal for young or older pets who need more attention or are not able to go for walks.
+                                            This is ideal for young or older pets who need extra attention or are not able to go for walks.
                                         </p>   
                                     </div>                            
                             </div>
-                            <div class="col-md-4 mt-3 menu-walking">
+                            <div class="col-md-4 menu-walking">
                                     <h3 class="services-menu-title2">
                                         <strong>Walks</strong>
                                     </h3>
@@ -155,7 +147,7 @@
                                         </p>
                                     </div>
                             </div>
-                            <div class="col-md-4 mt-3 menu-boarding">
+                            <div class="col-md-4 menu-boarding">
                                     <h3 class="services-menu-title3">
                                         <strong>Boarding</strong>
                                     </h3> 
@@ -170,7 +162,7 @@
                             </div>
                             <br>
                             <br>
-                <div class="row servicesrow mt-5 mb-5">
+                <div class="row servicesrow">
                             <div class="col-md-6">
                                     <img src="assets/images/M&N.jpg" class="img-thumbnail" alt="Two dogs in field">
                             </div>
@@ -185,7 +177,7 @@
 
 <!---------------------------- Footer ----------------------------->
 <footer>
-         <div class="container footer myfooter mt-3">
+         <div class="container footer myfooter mt-5">
             <div class="row justify-content-center">
                <div class="col-md-3 left-footer">
                   <form>
