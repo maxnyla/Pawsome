@@ -48,17 +48,12 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
-    /*position: relative;*/
 }
 
 /* Jumbotron */
 
 .jumbotron-background {
-    /*background-color: #a02b2b00;*/
     background-color:transparent;
-    /*margin-bottom: 16em;*/
-    /*margin-top: .8em;*/
     color: #000000;
 }
 
@@ -81,9 +76,20 @@ body {
 
 .jumbotron-modal-body {
     color: white;
-     background-color: #827c51;
+    background-color: #827c51;
 }
 
+.modal-booking,
+.modal-services, a {
+    color: #840b5e;
+}
+
+.modal-booking,
+.modal-services, a:hover {
+    color:hsl(81, 100%, 67%);
+    text-decoration: none;
+    font-style: italic;
+}
  
 /* Footer */
 
