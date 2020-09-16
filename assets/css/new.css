@@ -482,7 +482,6 @@ body {
     color: #4a5207;
 }
 
-
 .info-sect2 {
     padding: 2em;
 }
@@ -501,6 +500,11 @@ ul.info-text2 {
     color: #4a5207;
 }
 
+.left-footer {
+    background-color: white;
+    padding: 2em;
+}
+
 
 /* BOOKING page containers*/
 
@@ -515,14 +519,12 @@ ul.info-text2 {
 }
 
 .main-bookingrow {
-    background-color: #00000080;
-    background-color: #c9ccb580;
+    background-color: #31445f1a;
     padding: 3em;
 }
 
 .booking-contact-container {
-   background-color: #da6ab22b;
-   background-color: #c163a017;
+   background-color: #c163a00d;
    padding: 3em;
 }
 
@@ -695,7 +697,7 @@ button {
 }
 
 
-/* settings for mobile and tablet size*/
+/* settings for tablet size*/
 
 @media screeen and (min-width: 576px) {
    .navbar-expand-sm {
@@ -739,6 +741,11 @@ button {
     font-size: 95%;
   }
 
+  .btn--footer {
+    font-size: 1.1em;
+    border-radius: 0px;
+  }
+
   /*.right-footer {
     width: 70%;
   }*/
@@ -747,11 +754,7 @@ button {
     font-size: 1.1em;
   }
 
-  .btn--footer {
-    font-size: 14px;
-    border-radius: 0px;
-    padding: 2px;
-  }
+  
 
   .main-text {
     font-size: 2.5em;
