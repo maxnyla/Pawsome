@@ -440,6 +440,11 @@ a:hover {
     font-weight: 500;
 }
 
+.modal-booking-link {
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+}
 
 /* BOOKING page header*/
 
@@ -464,6 +469,7 @@ a:hover {
 
 .info-sect2 {
 	padding: 2em;
+    text-align: center;
 }
 
 .bookingform-section {
@@ -670,6 +676,10 @@ button {
 
 .name-item input {
 	width: calc(50% - 20px);
+}
+
+.map {
+    width: 80%;
 }
 
 
