@@ -20,7 +20,8 @@ This website has been deployed to [GitHub Pages](https://maxnyla.github.io/Pawso
 
 # Wireframe
 
-The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) 
+The wireframe was designed using [Microsoft Paint]
+I created two wireframes for each html page, one for the mobile view and another for the desktop view.   
 
 
 # UX
@@ -39,7 +40,7 @@ There is also a form to submit a request to receive the newsletter.
 - Services page: 
 The simple and responsive layout is achieved by using a grid system with different areas for a list of the 
 services offered and also some photos to enhance the visual experience. The prices section can be accessed as 
-a separate modal which opens in a new pop-up window.
+a separate modal which opens in a new pop-up window and 
 
 - Gallery page: 
 The main feature of the gallery page is an image carousel which is, again, inside a grid system. This also includes 
