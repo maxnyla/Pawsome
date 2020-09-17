@@ -37,9 +37,6 @@
 
 .mymaincontainer {
 	background: url("../images/newmain.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	min-height: 100vh;
 	display: flex;
@@ -114,18 +111,11 @@ a:hover {
 	font-size: 1.4em;
 }
 
-/*
-.social-media li,
-.social-media-home li {
-	display: inline;
-
-}*/
 
 .social-networks,
 .social-networks-home {
-    text-align: center:
+    text-align: center;
 }
-
 
 
 .social-media-home i {
@@ -166,7 +156,6 @@ a:hover {
 
 .btn--pnk {
 	background-color: #840b5e;
-	border-color: #840b5e;
 	border-radius: 6em;
 	border-width: medium;
 	color: white;
@@ -192,8 +181,6 @@ a:hover {
 .btn--footer {
 	color: white;
 	background-color: #840b5e;
-	border-color: #840b5e;
-	font-style: bold;
 }
 
 .btn--footer:hover,
@@ -219,7 +206,6 @@ a:hover {
 .btn--pnk-prices {
 	color: white;
 	background-color: #840b5e;
-	border-color: #840b5e;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	margin-top: 5px;
@@ -400,7 +386,6 @@ a:hover {
 .testimonials-title {
 	color: #03352a;
 	text-align: center;
-	padding: 1em;
 	margin-bottom: 1.5rem;
 }
 
@@ -437,16 +422,22 @@ a:hover {
 	background-color: #c163a017;
 }
 
-.booking-link-text {}
+.booking-link {
+    text-align: center;
+}
 
 .booking-link-button {
 	background: #03352abd;
+    border-radius: 1em;
+    padding: 1.4em;
+    text-align: center;
 }
 
 .booking-link a {
 	color: white;
 	text-transform: uppercase;
-	font-style: italic font-weight: 500;
+	font-style: italic;
+    font-weight: 500;
 }
 
 
@@ -694,18 +685,6 @@ button {
 }
 
 
-/* settings for tablet size and larger*/
-
-@media screeen and (min-width: 576px) {
-	.navbar-expand-sm {
-		-ms-flex-flow: row nowrap;
-		flex-flow: row nowrap;
-		-ms-flex-pack: start;
-		justify-content: flex-start;
-	}
-}
-
-
 /* settings up to tablet and small laptop/desktop size*/
 
 @media screen and (max-width: 768px) {
@@ -716,12 +695,11 @@ button {
 		font-size: .7em;
 		letter-spacing: 0px;
 	}
-	/*#navbarNav { 
-    font-size: 20%;
-  }*/
+
 	h3 {
 		font-size: 1.5rem;
 	}
+    
 	.bookingform-wrapper {
 		font-size: 1.2em;
 	}
@@ -765,9 +743,4 @@ button {
 	.servicemenucontainer {
 		margin-top: 2em;
 	}
-	/* settings for larger pc/laptop screens */
-	@media screen and (min-width: 900px) {
-		.main-text {
-			font-size: 3.2em;
-		}
-	}
+}

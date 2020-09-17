@@ -34,17 +34,19 @@ The header and footer design carries through the site on all pages for continuit
 - Home page:
 The home page design is very simple: the main feature is a relevant and scenic background photo
 that covers the full viewport. The goal is to showcase the services offered and use bright, happy colours that are also close to nature.
-In the center is a jumbotron that includes an 'About Me' section which is accessed through a modal window.
+In the center is a jumbotron that includes an 'About Me' section which is accessed through a modal window. Within the modal popup is a link to
+the booking section and also a link to the Services section. I like the fact that the site has many sections interlinked from different places, 
+as I feel that it makes it more accessible.
 There is also a form to submit a request to receive the newsletter.
 
 - Services page: 
 The simple and responsive layout is achieved by using a grid system with different areas for a list of the 
 services offered and also some photos to enhance the visual experience. The prices section can be accessed as 
-a separate modal which opens in a new pop-up window and 
+a separate modal which opens in a new pop-up window and there is a link to the booking section from the bottom of the page as well as from the prices section.
 
 - Gallery page: 
 The main feature of the gallery page is an image carousel which is, again, inside a grid system. This also includes 
-an area with testimonies from customers that have used the business.
+an area with testimonies from customers that have used the business. At the bottom of the page is a link to the booking section of the website.
 
 - Booking page: 
 The booking page follows the theme with a grid system, which includes some information with contact details and a map as well as a
@@ -75,7 +77,7 @@ with the care of my dogs and, potentially, access to my home.
 - As a user, I'd like to be able to book online without needing to make a phone call.
 - As a user, I'd like to be able to click the contact number and email to contact the business straight away if I so wish.
 
-PawSome business owners:
+PawSome business owner:
 
 - As a business owner, I'd like to show potential customers that they can trust me with their pets. Since I am a dog owner
 myself, I know how important the trust factor is. This is achieved through the information in the 'About Me' section.
