@@ -1,197 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Paw-Some: Dog walks and boarding </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-</head>
-<body>
-
-<!-- Header (Navbar taken from Bootstrap documentation) -->
-<header>
-    <nav class="navbar custom-nav navbar-expand-sm navbar-dark bg-custom-green">
-        <a class="navbar-brand logo" href="index.html">
+   <head>
+      <title>Paw-Some: Dog walks and boarding </title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+   </head>
+   <body>
+      <!-- Header (Navbar taken from Bootstrap documentation) -->
+      <header>
+         <nav class="navbar custom-nav navbar-expand-sm navbar-dark bg-custom-green">
+            <a class="navbar-brand logo" href="index.html">
             <img class="logo" src="assets/images/logo.png" 
-                alt="Paw-some">
-        </a>
-        <button class="navbar-toggler" 
-                type="button" 
-                data-toggle="collapse" 
-                data-target="#navbarNav"
-                aria-controls="navbarNav" 
-		        aria-expanded="false" 
-		        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        </span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav navbar-menu">
-                <li class="nav-item active">
-                <h3><a class="nav-link" href="index.html">Home</a></h3>
-                </li>
-                <li class="nav-item">
-                <h3><a class="nav-link active" href="services.html">Services</a></h3>
-                </li>
-                <li class="nav-item">
-                <h3><a class="nav-link" href="gallery.html">Gallery</a></h3>
-                </li>
-                <li class="nav-item">
-                <h3><a class="nav-link" href="booking.html">Booking</a></h3>
-                </li>
-            </ul>
-        </div>  
-    </nav>
-<!-- /.Header -->
-</header>
-
-<!-- Services page header -->
-<div class="container">
-<div class="row services-main">
-        <div class="col-md-12">
-            <div class="row services-row">
-                <div class="col heading services-header mb-3">
-                    <br>
-                    <h2 class="services-title">
-                        PawSome Services
-                    </h2>
-                    <br>
-                        <!-- Button trigger modal-->
-                        <button 
-                            type="button" 
-                            class="btn btn-lg btn--cta btn--pnk btn--pnk-prices" 
-                            data-toggle="modal" 
-                            data-target="#modalPrices">
-                                <i class="fas fa-paw icon-prices">
-                                </i> Click for Prices
-                        </button>
-                            <!-- Modal: modalPrices-->
-                            <div class="modal fade right" 
-                                id="modalPrices" 
-                                tabindex="-1" 
-                                role="dialog" 
-                                aria-labelledby="modalPrices" 
-                                aria-hidden="true" 
-                                data-backdrop="false">
-                            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" 
-                                role="document">
-                                <!--Content-->
-                                <div class="row no-gutters price-modal modal-content">
-                                    <div class="col">
-                                            <!--Header-->
-                                            <div class="modal-header jumbotron-modal-header justify-content-center">
-                                                <p class="heading prices-modalheader">Prices</p>
-                                            </div>
-                                    </div>
-                                    <!--Body-->
-                                    <div class="modal-body">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <p class="visits-text">Visits: 30 minute drop-in £10</p>
-                                                <p class="walks-text">Group walks: 30 minutes £10 / 60 minutes £14</p>
-                                                <p class="walks-text">Individual walks: 30 minutes £14 / 60 mimutes £18</p>
-                                                <p class="boarding-text">Boarding: 24 hours £30</p>
-                                                <p class="discount-text">
-                                                    <small>*50% discount for second pet in household on walks and boarding.</small></p>
-                                                <p>Click here to book now:</p>
-                                                    <a class="booking-link modal-booking-link" href="booking.html">Booking</a>                      
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--Modal Footer-->
-                                    <div class="modal-footer justify-content-center">
-                                        <button  
-                                            class=" button btn--green-home" 
-                                            data-dismiss="modal">Close
-                                        </button>
-                                    </div>
-                                </div>     
-                                <!--/.Content-->       
-                            </div>
-                            </div>
-                            <!-- Modal: modalPrices-->
-                </div>
+               alt="Paw-some">
+            </a>
+            <button class="navbar-toggler" 
+               type="button" 
+               data-toggle="collapse" 
+               data-target="#navbarNav"
+               aria-controls="navbarNav" 
+               aria-expanded="false" 
+               aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+            </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav navbar-menu">
+                  <li class="nav-item active">
+                     <h3><a class="nav-link" href="index.html">Home</a></h3>
+                  </li>
+                  <li class="nav-item">
+                     <h3><a class="nav-link active" href="services.html">Services</a></h3>
+                  </li>
+                  <li class="nav-item">
+                     <h3><a class="nav-link" href="gallery.html">Gallery</a></h3>
+                  </li>
+                  <li class="nav-item">
+                     <h3><a class="nav-link" href="booking.html">Booking</a></h3>
+                  </li>
+               </ul>
             </div>
-        </div>
-</div>
-<!-- /.Services page header -->
-<br>
-<!--- /Main area  -->
-    <section class="container service-list-container">
-                <div class="row servicesrow servicemenucontainer mt-4">
-                            <div class="col-md-4 menu-visits">
-                                    <h3 class="services-menu-title1">
-                                        <strong>Visits</strong>
-                                    </h3>
-                                    <br>                                       
-                                    <div class="services-block1">
-                                        <p class="services-text1">Do you need to leave your pet at home for long periods? 
-                                            We can pop in for a 30 minute visit(s) to provide company and cuddles, top up their water and make sure they're well. 
-                                            We can administer medication if required and we also offer this service for cats and other small animals. 
-                                            This is ideal for young or older pets who need extra attention or are not able to go for walks.
-                                        </p>   
-                                    </div>                            
-                            </div>
-                            <div class="col-md-4 menu-walking">
-                                    <h3 class="services-menu-title2">
-                                        <strong>Walks</strong>
-                                    </h3>
-                                    <br>          
-                                    <div class="services-block2">
-                                        <p class="services-text2">Don't worry about your pooch when you go to work: they'll have the best adventures with us! 
-                                            We'll pick them up to go for a fun-filled walk. Walks last 30/60 minutes and we provide individual and group walks, with a maximum of 4 dogs per group. 
-                                            Once back home we'll towel them down, refill their water and make sure they're happy and ready to welcome you back after their nap.
-                                        </p>
+         </nav>
+         <!-- /.Header -->
+      </header>
+      <!-- Services page header -->
+      <div class="container">
+         <div class="row services-main">
+            <div class="col-md-12">
+               <div class="row services-row">
+                  <div class="col heading services-header mb-3">
+                     <br>
+                     <h2 class="services-title">
+                        PawSome Services
+                     </h2>
+                     <br>
+                     <!-- Button trigger modal-->
+                     <button 
+                        type="button" 
+                        class="btn btn-lg btn--cta btn--pnk btn--pnk-prices" 
+                        data-toggle="modal" 
+                        data-target="#modalPrices">
+                     <i class="fas fa-paw icon-prices">
+                     </i> Click for Prices
+                     </button>
+                     <!-- Modal: modalPrices-->
+                     <div class="modal fade right" 
+                        id="modalPrices" 
+                        tabindex="-1" 
+                        role="dialog" 
+                        aria-labelledby="modalPrices" 
+                        aria-hidden="true" 
+                        data-backdrop="false">
+                        <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" 
+                           role="document">
+                           <!--Content-->
+                           <div class="row no-gutters price-modal modal-content">
+                              <div class="col">
+                                 <!--Header-->
+                                 <div class="modal-header jumbotron-modal-header justify-content-center">
+                                    <p class="heading prices-modalheader">Prices</p>
+                                 </div>
+                              </div>
+                              <!--Body-->
+                              <div class="modal-body">
+                                 <div class="row">
+                                    <div class="col-12">
+                                       <p class="visits-text">Visits: 30 minute drop-in £10</p>
+                                       <p class="walks-text">Group walks: 30 minutes £10 / 60 minutes £14</p>
+                                       <p class="walks-text">Individual walks: 30 minutes £14 / 60 mimutes £18</p>
+                                       <p class="boarding-text">Boarding: 24 hours £30</p>
+                                       <p class="discount-text">
+                                          <small>*50% discount for second pet in household on walks and boarding.</small>
+                                       </p>
+                                       <p>Click here to book now:</p>
+                                       <a class="booking-link modal-booking-link" href="booking.html">Booking</a>                      
                                     </div>
-                            </div>
-                            <div class="col-md-4 menu-boarding">
-                                    <h3 class="services-menu-title3">
-                                        <strong>Boarding</strong>
-                                    </h3> 
-                                    <br>                 
-                                    <div class="services-block3">
-                                        <p class="services-text3">Going on holiday but worry about leaving your pet behind? With our boarding service, 
-                                           your dog will have their own holiday and the best time! We'll take care of them in our home, giving them all the attention that they're used to. 
-                                           They'll have two walks a day, play and cuddles and will have a great time whilst you're away, safe in the knowledge that 
-                                            they're well cared for.
-                                        </p>
-                                    </div>
-                            </div>
-                            <br>
-                            <br>
-                <div class="row servicesrow">
-                            <div class="col-md-6">
-                                    <img src="assets/images/M&N.jpg" class="img-thumbnail" alt="Two dogs in field">
-                            </div>
-                            <div class="col-md-6">
-                                        <img src="assets/images/closeN.jpg" class="img-thumbnail" alt="German Shepherd dog">
-                            </div>
-                </div>
-                </div>
- 
-  
-                <div class="row no-gutters mb-5 booking-link-row justify-content-around">
-                    <div class="col-xs-6 booking-link-text mb-3">
-                        <h5> Treat your dog to a Paw<i class="fas fa-dog" ></i>Some time!
-                        </h5>
-                    </div>
-                    <div class="col-xs-6 booking-link mt-3">
-                        <a class="booking-link-button booking-link" href="booking.html">Book here</a>
-                    </div>
-                </div>
- 
-   </section>
-</div>
-<!-- /Main area  -->
-
-<!-- Footer -->
-<footer>
+                                 </div>
+                              </div>
+                              <!--Modal Footer-->
+                              <div class="modal-footer justify-content-center">
+                                 <button  
+                                    class=" button btn--green-home" 
+                                    data-dismiss="modal">Close
+                                 </button>
+                              </div>
+                           </div>
+                           <!--/.Content-->       
+                        </div>
+                     </div>
+                     <!-- Modal: modalPrices-->
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- /.Services page header -->
+         <br>
+         <!--- /Main area  -->
+         <section class="container service-list-container">
+            <div class="row servicesrow servicemenucontainer mt-4">
+               <div class="col-md-4 menu-visits">
+                  <h3 class="services-menu-title1">
+                     <strong>Visits</strong>
+                  </h3>
+                  <br>                                       
+                  <div class="services-block1">
+                     <p class="services-text1">Do you need to leave your pet at home for long periods? 
+                        We can pop in for a 30 minute visit(s) to provide company and cuddles, top up their water and make sure they're well. 
+                        We can administer medication if required and we also offer this service for cats and other small animals. 
+                        This is ideal for young or older pets who need extra attention or are not able to go for walks.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-4 menu-walking">
+                  <h3 class="services-menu-title2">
+                     <strong>Walks</strong>
+                  </h3>
+                  <br>          
+                  <div class="services-block2">
+                     <p class="services-text2">Don't worry about your pooch when you go to work: they'll have the best adventures with us! 
+                        We'll pick them up to go for a fun-filled walk. Walks last 30/60 minutes and we provide individual and group walks, with a maximum of 4 dogs per group. 
+                        Once back home we'll towel them down, refill their water and make sure they're happy and ready to welcome you back after their nap.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-4 menu-boarding">
+                  <h3 class="services-menu-title3">
+                     <strong>Boarding</strong>
+                  </h3>
+                  <br>                 
+                  <div class="services-block3">
+                     <p class="services-text3">Going on holiday but worry about leaving your pet behind? With our boarding service, 
+                        your dog will have their own holiday and the best time! We'll take care of them in our home, giving them all the attention that they're used to. 
+                        They'll have two walks a day, play and cuddles and will have a great time whilst you're away, safe in the knowledge that 
+                        they're well cared for.
+                     </p>
+                  </div>
+               </div>
+               <br>
+               <br>
+               <div class="row servicesrow">
+                  <div class="col-md-6">
+                     <img src="assets/images/M&N.jpg" class="img-thumbnail" alt="Two dogs in field">
+                  </div>
+                  <div class="col-md-6">
+                     <img src="assets/images/closeN.jpg" class="img-thumbnail" alt="German Shepherd dog">
+                  </div>
+               </div>
+            </div>
+            <div class="row no-gutters mb-5 booking-link-row justify-content-around">
+               <div class="col-xs-6 booking-link-text mb-3">
+                  <h5> Treat your dog to a Paw<i class="fas fa-dog" ></i>Some time!
+                  </h5>
+               </div>
+               <div class="col-xs-6 booking-link mt-3">
+                  <a class="booking-link-button booking-link" href="booking.html">Book here</a>
+               </div>
+            </div>
+         </section>
+      </div>
+      <!-- /Main area  -->
+      <!-- Footer -->
+      <footer>
          <div class="container-fluid footer myfooter mt-5">
             <div class="row justify-content-center">
                <div class="col-sm-9">
@@ -200,7 +194,7 @@
                         <li class="list-inline-item">
                            <a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i> </a> 
                         </li>
-                       <li class="list-inline-item">
+                        <li class="list-inline-item">
                            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> </a> 
                         </li>
                         <li class="list-inline-item"> 
@@ -215,13 +209,12 @@
             </div>
          </div>
       </footer>
-<!-- /.Footer -->
-
-<!--.Scripts -->
-<script src="https://kit.fontawesome.com/dadd5c7e02.js" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!-- /.Scripts -->      
-</body>
+      <!-- /.Footer -->
+      <!--.Scripts -->
+      <script src="https://kit.fontawesome.com/dadd5c7e02.js" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <!-- /.Scripts -->      
+   </body>
 </html>
