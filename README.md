@@ -24,7 +24,7 @@ The wireframe was designed using [Microsoft Paint]
 I created two wireframes for each html page, one for the mobile view and another for the desktop view. 
 Below is a link to all my wireframes:
 
-[wireframes for MS1 PawSome] (https://github.com/maxnyla/Pawsome/tree/master/assets/wireframes)
+[wireframes for MS1 PawSome](https://github.com/maxnyla/Pawsome/tree/master/assets/wireframes)
 
 
 # UX
