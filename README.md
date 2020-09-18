@@ -69,19 +69,20 @@ Below is a link to all my wireframes:
     For the logo, I wanted to use an image of a dog but make it a friendly, cartoon-like character to give the page a playful air.
 
 ### Site overview
-Below is a series of images showing an overview of the site:
 
-[Home Page](assets/site_overview/1-maxnyla.github.io_Pawsome_index.html.png)
+Below are a series of images showing an overview of the site:
 
-[Home Page with modal open](assets/site_overview/2-maxnyla.github.io_Pawsome_index.html_open_modal.png)
+![Home Page](assets/site_overview/1-Home.png)
 
-[Services page](assets/site_overview/3-maxnyla.github.io_Pawsome_services.html.png)
+![Home Page with modal open](assets/site_overview/2-Home_modal.png)
 
-[Services page with modal open](assets/site_overview/4-maxnyla.github.io_Pawsome_services.html_open_modal.png)
+![Services page](assets/site_overview/3-Services.png)
 
-[Gallery page](assets/site_overview/5-maxnyla.github.io_Pawsome_gallery.html.png)
+![Services page with modal open](assets/site_overview/4-Services_modal.png)
 
-[Booking page](assets/site_overview/6-maxnyla.github.io_Pawsome_booking.html.png)
+![Gallery page](assets/site_overview/5-Gallery.png)
+
+![Booking page](assets/site_overview/6-Booking.png)
 
 
 
