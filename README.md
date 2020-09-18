@@ -71,17 +71,17 @@ Below is a link to all my wireframes:
 ### Site overview
 Below is a series of images showing an overview of the site:
 
-[Home Page](assets/site_overview/1-maxnyla.github.io_Pawsome_index.html)
+[Home Page](assets/site_overview/1-maxnyla.github.io_Pawsome_index.html.png)
 
-[Home Page with modal open](assets/site_overview/2-maxnyla.github.io_Pawsome_index.html_open_modal)
+[Home Page with modal open](assets/site_overview/2-maxnyla.github.io_Pawsome_index.html_open_modal.png)
 
-[Services page](assets/site_overview/3-maxnyla.github.io_Pawsome_services.html)
+[Services page](assets/site_overview/3-maxnyla.github.io_Pawsome_services.html.png)
 
-[Services page with modal open](assets/site_overview/4-maxnyla.github.io_Pawsome_services.html_open_modal)
+[Services page with modal open](assets/site_overview/4-maxnyla.github.io_Pawsome_services.html_open_modal.png)
 
-[Gallery page](assets/site_overview/5-maxnyla.github.io_Pawsome_gallery.html)
+[Gallery page](assets/site_overview/5-maxnyla.github.io_Pawsome_gallery.html.png)
 
-[Booking page](assets/site_overview/6-maxnyla.github.io_Pawsome_booking.html)
+[Booking page](assets/site_overview/6-maxnyla.github.io_Pawsome_booking.html.png)
 
 
 
