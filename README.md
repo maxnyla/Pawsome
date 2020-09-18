@@ -14,19 +14,6 @@ to be away for a long time. It's vital to know that your pet will be well taken 
 this site is trying to convey and offer.
 
 
-# Deployment and Demo
-
-This website has been deployed to [GitHub Pages](https://maxnyla.github.io/Pawsome/index.html)
-
-# Wireframe
-
-The wireframe was designed using [Microsoft Paint]
-I created two wireframes for each html page, one for the mobile view and another for the desktop view. 
-Below is a link to all my wireframes:
-
-[wireframes for MS1 PawSome](https://github.com/maxnyla/Pawsome/tree/master/assets/wireframes)
-
-
 # UX
 
 My aim was to have a clean, uncluttered and responsive site with a very simple home page where the main feature is a relevant and scenic background photo
@@ -63,6 +50,16 @@ Total reduction in image size has been 53% (7MB).
 
 ![tinypng image size saving results](assets/images/compression_results.png)
 
+
+# Wireframe
+
+The wireframe was designed using [Microsoft Paint]
+I created two wireframes for each html page, one for the mobile view and another for the desktop view. 
+Below is a link to all my wireframes:
+
+[wireframes for MS1 PawSome](https://github.com/maxnyla/Pawsome/tree/master/assets/wireframes)
+
+
 # Visual Identity
 
 - [LogoMakr](https://logomakr.com/) was used for the logo design.
@@ -96,6 +93,13 @@ This website has been tested through the GTMetrix site, [GTmetrix](https://gtmet
 Below is a screenshot of the results achieved. Page speed score was 94% and the time to fully load the site was 1.7s.
 
 ![Website Speed Test Results](assets/images/speed_test.png)
+
+
+
+# Deployment and Demo
+
+This website has been deployed to [GitHub Pages](https://maxnyla.github.io/Pawsome/index.html)
+
 
 
 # Technologies
