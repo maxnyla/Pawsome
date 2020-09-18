@@ -4,7 +4,7 @@ alt="PawSome logo"/>
 </p>
 
 
-# Description
+## Description
 
 *Note: This site portrays a fictitious business, created purely for the purpose of this exercise*
 
@@ -14,7 +14,7 @@ to be away for a long time. It's vital to know that your pet will be well taken 
 this site is trying to convey and offer.
 
 
-# UX
+## UX
 
 My aim was to have a clean, uncluttered and responsive site with a very simple home page where the main feature is a relevant and scenic background photo
 that covers the full viewport and sets the tone for the rest of the site. 
@@ -23,7 +23,7 @@ The header and footer design carries through the site on all pages for continuit
  
 - Home page:
 The home page design is very simple: the main feature is a relevant and scenic background photo
-that covers the full viewport. The goal is to showcase the services offered and use bright, happy colours that are also close to nature.
+that covers the full viewport. The goal is to showcase the services offered and use bright, happy colours that are also close to nature yet not garish or too 'in your face'.
 In the center is a jumbotron that includes an 'About Me' section which is accessed through a modal window. Within the modal popup is a link to
 the booking section and also a link to the Services section. I like the fact that the site has many sections interlinked from different places, 
 as I feel that it makes it more accessible.
@@ -51,20 +51,25 @@ Total reduction in image size has been 53% (7MB).
 ![tinypng image size saving results](assets/images/compression_results.png)
 
 
-# Wireframe
+## Wireframe
 
-The wireframe was designed using [Microsoft Paint]
+The wireframe was designed using [Microsoft Paint](https://jspaint.app/)
 I created two wireframes for each html page, one for the mobile view and another for the desktop view. 
+I didn't want to change the design for the different pages unless it was totally necessary becuse of viewing limitations so I stuck to the same structure as much as possible.
+
 Below is a link to all my wireframes:
 
 [wireframes for MS1 PawSome](https://github.com/maxnyla/Pawsome/tree/master/assets/wireframes)
 
 
-# Visual Identity
+## Visual Identity
 
-- [LogoMakr](https://logomakr.com/) was used for the logo design.
+- [LogoMakr](https://logomakr.com/) was used for the logo design. 
+    For the logo, I wanted to use an image of a dog but make it a friendly, cartoon-like character to give the page a playful air.
+    
 
-# User Stories
+
+## User Stories
 
 Users:
 
@@ -85,9 +90,10 @@ myself, I know how important the trust factor is. This is achieved through the i
 as well as the areas covered.
 - As a business owner, I want to offer customers the possibility of sending a booking enquiry via the site. 
 - As a business owner, I'd like to share a glimpse of our life through our social media posts.
+- As a business owner, it's important to me that any user or potential customer viewing the site has the best experience and is able to easily access all the relevant sections with one click.
 
 
-# Testing
+## Testing
 
 This website has been tested through the GTMetrix site, [GTmetrix](https://gtmetrix.com/reports/maxnyla.github.io/EKEXs42Q).
 Below is a screenshot of the results achieved. Page speed score was 94% and the time to fully load the site was 1.7s.
@@ -95,22 +101,42 @@ Below is a screenshot of the results achieved. Page speed score was 94% and the 
 ![Website Speed Test Results](assets/images/speed_test.png)
 
 
-
-# Deployment and Demo
+## Deployment and Demo
 
 This website has been deployed to [GitHub Pages](https://maxnyla.github.io/Pawsome/index.html)
+I have deployed the site on a number of occasions throughout the building process, so that I could test it from different devices such as my mobile and tablet and check for responsiveness.
+During this testing I realised that I had to make some design changes to areas that I was not satisfied with, as the viewing experience on the mobile devices was not great.
+I have therefore made many changes as I went along in order to make it more responsive or easier to navigate.
 
 
-
-# Technologies
+## Technologies
 
 - [Bootstrap](https://getbootstrap.com)
+    Used for their grid system, navbars, modals, carousel, etc. I have relied heavily on Bootstrap elements although I have on many occasions modified it for styling purposes.
+
 - [FontAwesome](https://fontawesome.com)
-- [Cloudflare] (https://www.cloudflare.com) Used for the scripts
-- [Google APIs] (https://www.googleapis.com) Used for the scripts
+    Used for their great icons, which I have used on most if not all my pages.
+
+- [Cloudflare] (https://www.cloudflare.com) 
+    Used for the scripts
+
+- [Google APIs](https://www.googleapis.com) 
+    Used for the map
+
+- [Code Beautify CSS beautifier](https://codebeautify.org)
+    Used to make my CSS look nicer and tidier
+
+- [Beautify Tools HTML beautifier](http://beautifytools.com/html-beautifier.php)
+    Used to make my HTML tidier 
+
+- [W3C Markup Validation Service](https://validator.w3.org)
+    Used to check my HTML code
+    
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator)
+    Used to check my CSS code
 
 
-# Media
+## Media
 
 I have taken advantage of several useful resources for images and my logo. Please see below:
 
@@ -119,9 +145,11 @@ I have taken advantage of several useful resources for images and my logo. Pleas
 - [Font Awesome](https://fontawesome.com/6?next=%2Fstart) for the icons used on this project.
 - [Am I Responsive](http://ami.responsivedesign.is/) for the image used in the UX section showing the different screen sizes.
 
-# With thanks to
 
-All the different resources and sites that are out there, with their respective communities. I will list them below:
+## Acknowledgements and thanks
+
+I would like to mention all the different resources and sites that are out there, with their respective communities, which have been a huge help for me. 
+I will list some of them below:
 
 - Bootstrap
 - Git Hub and Git Pod
@@ -129,3 +157,10 @@ All the different resources and sites that are out there, with their respective 
 - jQuery developers
 - Unsplash.com
 - LogoMakr
+- Stack Overload
+- Slack 
+- Google (for all the things that I've looked up during this project, which have led me to all these amazing sites)
+
+And lastly, I could not leave out the Code Institute team: the other students on Slack, the tutor support and all the mentors who are always welcoming and trying to help, 
+and of course my mentor Felipe Souza Alarcon for all his help and ideas during this project, and his flexibility and availability. 
+
