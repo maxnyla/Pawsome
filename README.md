@@ -21,7 +21,10 @@ This website has been deployed to [GitHub Pages](https://maxnyla.github.io/Pawso
 # Wireframe
 
 The wireframe was designed using [Microsoft Paint]
-I created two wireframes for each html page, one for the mobile view and another for the desktop view.   
+I created two wireframes for each html page, one for the mobile view and another for the desktop view. 
+Below is a link to all my wireframes:
+
+[wireframes for MS1 PawSome] (https://github.com/maxnyla/Pawsome/tree/master/assets/wireframes)
 
 
 # UX
