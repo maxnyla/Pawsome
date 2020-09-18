@@ -6,7 +6,8 @@ alt="PawSome logo"/>
 
 ## Description
 
-*Note: This site portrays a fictitious business, created purely for the purpose of this exercise*
+*Note: This site portrays a fictitious business, created purely for the purpose of this exercise. 
+This will be my first Milestone Project for the Code Institute Diploma in Full Stack Development*
 
 PawSome is a pet services company, offering dog walking and boarding services as well as home visits in the customer's home.
 It was created by a dog owner who understands how difficult it is to leave your four legged family member behind when you need 
@@ -27,7 +28,6 @@ that covers the full viewport. The goal is to showcase the services offered and 
 In the center is a jumbotron that includes an 'About Me' section which is accessed through a modal window. Within the modal popup is a link to
 the booking section and also a link to the Services section. I like the fact that the site has many sections interlinked from different places, 
 as I feel that it makes it more accessible.
-There is also a form to submit a request to receive the newsletter.
 
 - Services page: 
 The simple and responsive layout is achieved by using a grid system with different areas for a list of the 
@@ -41,6 +41,7 @@ an area with testimonies from customers that have used the business. At the bott
 - Booking page: 
 The booking page follows the theme with a grid system, which includes some information with contact details and a map as well as a
 booking form. The contact details include a telephone number and email address that can be clicked through for a seamless experience.
+There is also a form where clients can submit a request to receive the company newsletter.
 
 
 ![Image containing example of responsiveness within several screens](assets/images/responsive.png)
@@ -66,7 +67,7 @@ Below is a link to all my wireframes:
 
 - [LogoMakr](https://logomakr.com/) was used for the logo design. 
     For the logo, I wanted to use an image of a dog but make it a friendly, cartoon-like character to give the page a playful air.
-    
+
 
 
 ## User Stories
@@ -111,13 +112,19 @@ I have therefore made many changes as I went along in order to make it more resp
 
 ## Technologies
 
+- [Gitpod](https://www.gitpod.io)
+    Since I am typing this text through Gitpod, I figured it would go first in the list. All code was created through Gitpod and the workspace for this project resides there.
+
+- [GitHub](https://www.github.com)
+    This has been used to host and deploy the project.
+
 - [Bootstrap](https://getbootstrap.com)
     Used for their grid system, navbars, modals, carousel, etc. I have relied heavily on Bootstrap elements although I have on many occasions modified it for styling purposes.
 
 - [FontAwesome](https://fontawesome.com)
     Used for their great icons, which I have used on most if not all my pages.
 
-- [Cloudflare] (https://www.cloudflare.com) 
+- [Cloudflare](https://www.cloudflare.com) 
     Used for the scripts
 
 - [Google APIs](https://www.googleapis.com) 
@@ -140,11 +147,21 @@ I have therefore made many changes as I went along in order to make it more resp
 
 I have taken advantage of several useful resources for images and my logo. Please see below:
 
-- [Logo Makr](https://logomakr.com/) for the logo design.
-- [Unsplash](https://unsplash.com) for some of the images. most of the images used were my own.
-- [Font Awesome](https://fontawesome.com/6?next=%2Fstart) for the icons used on this project.
-- [Am I Responsive](http://ami.responsivedesign.is/) for the image used in the UX section showing the different screen sizes.
+- [Logo Makr](https://logomakr.com/) 
+    for the logo design.
 
+- [Unsplash](https://unsplash.com) 
+    for some of the images, although most of the images used were my own and feature my present and past dogs.
+
+- [Font Awesome](https://fontawesome.com/6?next=%2Fstart) 
+    for the icons used on this project.
+
+- [Am I Responsive](http://ami.responsivedesign.is/) 
+    for the image used in the UX section showing the different screen sizes.
+
+- [Favicon](https://www.favicon.io)
+    for the thumbnail icon on the internet tab header
+    
 
 ## Acknowledgements and thanks
 
