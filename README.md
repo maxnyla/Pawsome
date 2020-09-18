@@ -68,6 +68,21 @@ Below is a link to all my wireframes:
 - [LogoMakr](https://logomakr.com/) was used for the logo design. 
     For the logo, I wanted to use an image of a dog but make it a friendly, cartoon-like character to give the page a playful air.
 
+### Site overview
+Below is a series of images showing an overview of the site:
+
+[Home Page](assets/site_overview/1-maxnyla.github.io_Pawsome_index.html)
+
+[Home Page with modal open](assets/site_overview/2-maxnyla.github.io_Pawsome_index.html_open_modal)
+
+[Services page](assets/site_overview/3-maxnyla.github.io_Pawsome_services.html)
+
+[Services page with modal open](assets/site_overview/4-maxnyla.github.io_Pawsome_services.html_open_modal)
+
+[Gallery page](assets/site_overview/5-maxnyla.github.io_Pawsome_gallery.html)
+
+[Booking page](assets/site_overview/6-maxnyla.github.io_Pawsome_booking.html)
+
 
 
 ## User Stories
@@ -102,7 +117,7 @@ Below is a screenshot of the results achieved. Page speed score was 94% and the 
 ![Website Speed Test Results](assets/images/speed_test.png)
 
 
-## Deployment and Demo
+### Deployment and Demo
 
 This website has been deployed to [GitHub Pages](https://maxnyla.github.io/Pawsome/index.html)
 I have deployed the site on a number of occasions throughout the building process, so that I could test it from different devices such as my mobile and tablet and check for responsiveness.
@@ -111,6 +126,8 @@ I have therefore made many changes as I went along in order to make it more resp
 
 
 ## Technologies
+
+Technologies used on this project are basically [HTML5](https://en.wikipedia.org/wiki/HTML5) and [CSS3](https://en.wikipedia.org/wiki/CSS) for the build, in addition to which I have used the below.
 
 - [Gitpod](https://www.gitpod.io)
     Since I am typing this text through Gitpod, I figured it would go first in the list. All code was created through Gitpod and the workspace for this project resides there.
@@ -161,7 +178,7 @@ I have taken advantage of several useful resources for images and my logo. Pleas
 
 - [Favicon](https://www.favicon.io)
     for the thumbnail icon on the internet tab header
-    
+
 
 ## Acknowledgements and thanks
 
