@@ -52,12 +52,24 @@ booking form. The contact details include a telephone number and email address t
 There is also a form where clients can submit a request to receive the company newsletter.
 
 
+
 ![Image containing example of responsiveness within several screens](assets/images/responsive.png)
+
+
+
+
+
 
 Due to having a few large images on the site which took long to load and for the purpose of improving user experience, I have compressed the images using [tinypng.com](https://tinypng.com/) 
 Total reduction in image size has been 53% (7MB).
 
+
+
+
+
 ![tinypng image size saving results](assets/images/compression_results.png)
+
+
 
 
 
