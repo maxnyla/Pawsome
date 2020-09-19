@@ -22,23 +22,27 @@ that covers the full viewport and sets the tone for the rest of the site.
 The goal is to showcase the services offered and use bright, happy colours that are also close to nature. 
 The header and footer design carries through the site on all pages for continuity. 
  
-- Home page:
+- ###Home page:
+
 The home page design is very simple: the main feature is a relevant and scenic background photo
 that covers the full viewport. The goal is to showcase the services offered and use bright, happy colours that are also close to nature yet not garish or too 'in your face'.
 In the center is a jumbotron that includes an 'About Me' section which is accessed through a modal window. Within the modal popup is a link to
 the booking section and also a link to the Services section. I like the fact that the site has many sections interlinked from different places, 
 as I feel that it makes it more accessible.
 
-- Services page: 
+- ###Services page: 
+
 The simple and responsive layout is achieved by using a grid system with different areas for a list of the 
 services offered and also some photos to enhance the visual experience. The prices section can be accessed as 
 a separate modal which opens in a new pop-up window and there is a link to the booking section from the bottom of the page as well as from the prices section.
 
-- Gallery page: 
+- ###Gallery page: 
+
 The main feature of the gallery page is an image carousel which is, again, inside a grid system. This also includes 
 an area with testimonies from customers that have used the business. At the bottom of the page is a link to the booking section of the website.
 
-- Booking page: 
+- ###Booking page: 
+
 The booking page follows the theme with a grid system, which includes some information with contact details and a map as well as a
 booking form. The contact details include a telephone number and email address that can be clicked through for a seamless experience.
 There is also a form where clients can submit a request to receive the company newsletter.
