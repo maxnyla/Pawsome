@@ -24,7 +24,7 @@ that covers the full viewport and sets the tone for the rest of the site.
 The goal is to showcase the services offered and use bright, happy colours that are also close to nature. 
 The header and footer design carries through the site on all pages for continuity. 
  
-- _Home page:_
+- **Home page:**
 
 The home page design is very simple: the main feature is a relevant and scenic background photo
 that covers the full viewport. The goal is to showcase the services offered and use bright, happy colours that are also close to nature yet not garish or too 'in your face'.
@@ -32,20 +32,20 @@ In the center is a jumbotron that includes an 'About Me' section which is access
 the booking section and also a link to the Services section. I like the fact that the site has many sections interlinked from different places, 
 as I feel that it makes it more accessible.
 
-- Services page: 
+- **Services page:**
 
 The simple and responsive layout is achieved by using a grid system with different areas for a list of the 
 services offered and also some photos to enhance the visual experience. The prices section can be accessed as 
 a separate modal which opens in a new pop-up window and there is a link to the booking section from the bottom of the page as well as from the prices section.
 
 
-- Gallery page: 
+- **Gallery page:**
 
 The main feature of the gallery page is an image carousel which is, again, inside a grid system. This also includes 
 an area with testimonies from customers that have used the business. At the bottom of the page is a link to the booking section of the website.
 
 
-- Booking page: 
+- **Booking page:**
 
 The booking page follows the theme with a grid system, which includes some information with contact details and a map as well as a
 booking form. The contact details include a telephone number and email address that can be clicked through for a seamless experience.
@@ -117,7 +117,7 @@ Below are a series of images showing an overview of the site:
 ## User Stories
 
 
-Users:
+**Users:**
 
 - As a user, I'd like to get a feel for the sort of person the business owner is, to ascertain if I can trust them
 with the care of my dogs and, potentially, access to my home.
@@ -129,7 +129,7 @@ with the care of my dogs and, potentially, access to my home.
 - As a user, I'd like to be able to click the contact number and email to contact the business straight away if I so wish.
 
 
-PawSome business owner:
+**PawSome business owner:**
 
 - As a business owner, I'd like to show potential customers that they can trust me with their pets. Since I am a dog owner
 myself, I know how important the trust factor is. This is achieved through the information in the 'About Me' section.
@@ -152,7 +152,30 @@ Below is a screenshot of the results achieved. Page speed score was 94% and the 
 
 ### Deployment and Demo
 
-This website has been deployed to [GitHub Pages](https://maxnyla.github.io/Pawsome/index.html)
+**Deployment**
+
+This website has been deployed to GitHub Pages as [PawSome](https://maxnyla.github.io/Pawsome)
+
+The process for deployment is documented below:
+
+- Log into [GitHub](https://www.github.com)
+
+- Access the page with the repository for this project (https://github.com/maxnyla/Pawsome)
+
+- Click on 'Settings' on the main menu over the file listing
+
+- Navigate down to 'GitHub Pages'
+
+- Select 'Branch: Master' from the menu
+
+- This generates a live link for the website, which is now viewable publicly
+
+
+![Deployment](assets/site_overview/deployment.png)
+
+
+
+**Demo/Testing**
 
 I have deployed the site on a number of occasions throughout the building process, so that I could test it from different devices such as my mobile and tablet and check for responsiveness.
 
@@ -225,6 +248,9 @@ Technologies used on this project are basically [HTML5](https://en.wikipedia.org
     
 - [CSS Validation Service](https://jigsaw.w3.org/css-validator)
     Used to check my CSS code
+
+I must also mention the Chrome Developer Tools, as I have used them extensively throughout the project. They have been very useful for each change that I made, and to double-check my ideas before implementing them.
+
 
 
 ## Media
