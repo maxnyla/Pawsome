@@ -57,19 +57,12 @@ There is also a form where clients can submit a request to receive the company n
 
 
 
-
-
-
 Due to having a few large images on the site which took long to load and for the purpose of improving user experience, I have compressed the images using [tinypng.com](https://tinypng.com/) 
 Total reduction in image size has been 53% (7MB).
 
 
 
-
-
 ![tinypng image size saving results](assets/images/compression_results.png)
-
-
 
 
 
@@ -203,6 +196,11 @@ I then re-positioned these to have a central position in the footer, as I find i
 I shared the site with some friends and family who agreed that it would be nice to have, so I decided to include these. The challenges then were that I had to modify my elements becauase I had initially created a simple button with just an anchor tag in it but the code validator instructed me to change it.
 
 - Another challenge that presented itself was with the Services page, as the central services column text was shorter than the other two columns when the site was viewed at large mobile/tablet view. I had to change the text a bit to accommodate this and also change the column size to break into the mobile view at a different point in order to resolve it.
+
+- A recurrent problem/bug which I have not managed to resolve satisfactorily is the height of the home page (index html). I really wanted the background photo to take up the full height of the screen and absorb the text from the footer and this works, but it then also creates a vertical scrollbar due to overflow.
+All my attempts to fix this have failed because if I resolved the overflow problem I then ended up with an issue with the footer icons moving around and/or a white band at the bottom of the page. In the end, I figured that it caused the least disruption to the site to leave the overflow as it was.
+
+- I have tested the code on  different browsers (Chrome, Firefox, Edge, Opera, Safari) and on different devices such as mobile, tablet, laptop and large desktop.
 
 In other instances, I have simply changed things around because I thought that they looked nicer or worked better.
 
