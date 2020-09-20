@@ -75,6 +75,8 @@ Total reduction in image size has been 53% (7MB).
 ![tinypng image size saving results](assets/images/compression_results.png)
 
 
+:house:[ Table of Contents](#home)
+
 
 ## Wireframe <a name="wireframe"></a>
 
@@ -86,6 +88,8 @@ I didn't want to change the design for the different pages unless it was totally
 
 [wireframes for MS1 PawSome](https://github.com/maxnyla/Pawsome/tree/master/assets/wireframes)
 
+
+:house:[ Table of Contents](#home)
 
 
 ## Visual Identity <a name="visualidentity"></a>
@@ -102,6 +106,9 @@ With regards to the navigation links, in addition to the colour I also set these
 
 I also wanted to keep the site visual identity unified by using the same header and footer for all the pages. The only exception to this is the home page, where the colours of the footer social media icons are reversed.
 This is due to the fact that the magenta colour used on the other pages does not look bright or distinguishable enough over the background photo and I liked the effect of the white text better.
+
+
+:house:[ Table of Contents](#home)
 
 
 ### Site overview <a name="siteoverview"></a>
@@ -128,6 +135,8 @@ Below are a series of images showing an overview of the site:
 
 
 
+:house:[ Table of Contents](#home)
+
 
 ## User Stories <a name="userstories"></a>
 
@@ -153,6 +162,9 @@ as well as the areas covered.
 - As a business owner, I want to offer customers the possibility of sending a booking enquiry via the site. 
 - As a business owner, I'd like to share a glimpse of our life through our social media posts.
 - As a business owner, it's important to me that any user or potential customer viewing the site has the best experience and is able to easily access all the relevant sections with one click.
+
+
+:house:[ Table of Contents](#home)
 
 
 ## Testing <a name="testing"></a>
@@ -213,6 +225,9 @@ The process for deployment is documented below:
 ![Deployment](assets/site_overview/deployment.png)
 
 
+:house:[ Table of Contents](#home)
+
+
 ### Code validation <a name="codevalidation"></a>
 
 I ran all my code through the  [W3C Markup Validation Service](https://validator.w3.org) and the [CSS Validation Service](https://jigsaw.w3.org/css-validator)
@@ -270,6 +285,8 @@ Technologies used on this project are basically [HTML5](https://en.wikipedia.org
 I must also mention the Chrome Developer Tools, as I have used them extensively throughout the project. They have been very useful for each change that I made, and to double-check my ideas before implementing them.
 
 
+:house:[ Table of Contents](#home)
+
 
 ## Media <a name="media"></a>
 
@@ -310,3 +327,5 @@ I will list some of them below:
 And lastly, I could not leave out the Code Institute team: the other students on Slack, the tutor support and all the mentors who are always welcoming and trying to help, 
 and of course my mentor Felipe Souza Alarcon for all his help and ideas during this project, and his flexibility and availability. 
 
+
+:house:[ Table of Contents](#home)
