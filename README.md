@@ -89,9 +89,6 @@ I didn't want to change the design for the different pages unless it was totally
 [wireframes for MS1 PawSome](https://github.com/maxnyla/Pawsome/tree/master/assets/wireframes)
 
 
-:house:[ Back to Table of Contents](#home)
-
-
 ## Visual Identity <a name="visualidentity"></a>
 
 - [LogoMakr](https://logomakr.com/) was used for the logo design. 
@@ -199,6 +196,8 @@ All my attempts to fix this have failed because if I resolved the overflow probl
 
 In other instances, I have simply changed things around because I thought that they looked nicer or worked better.
 
+
+:house:[ Back to Table of Contents](#home)
 
 
 ## Deployment <a name="deployment"></a>
