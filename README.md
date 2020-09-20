@@ -4,8 +4,24 @@ alt="PawSome logo"/>
 </p>
 
 
+![Image containing example of responsiveness within several screens](assets/images/responsive.png)
 
-## Description
+# Table of Contents <a name="home"></a>
+1. [Introduction](#introduction)
+2. [UX](#ux)
+3. [Wireframe](#wireframe)
+4. [Visual Identity](#visualidentity)    
+5. [Site Overview](#siteoverview)
+6. [User Stories](#userstories)
+7. [Testing](#testing)
+8. [Deployment](#deployment)
+9. [Code Validation](#codevalidation)
+10. [Technologies](#technologies)
+11. [Media](#media)
+9. [Acknowledgements and thanks](#acknowledgements)
+
+
+## Introduction <a name="introduction"></a>
 
 *Note: This site portrays a fictitious business, created purely for the purpose of this exercise. 
 This will be my first Milestone Project for the Code Institute Diploma in Full Stack Development*
@@ -16,8 +32,7 @@ to be away for a long time. It's vital to know that your pet will be well taken 
 this site is trying to convey and offer.
 
 
-
-## UX
+## UX <a name="ux"></a>
 
 My aim was to have a clean, uncluttered and responsive site with a very simple home page where the main feature is a relevant and scenic background photo
 that covers the full viewport and sets the tone for the rest of the site. 
@@ -52,11 +67,6 @@ booking form. The contact details include a telephone number and email address t
 There is also a form where clients can submit a request to receive the company newsletter.
 
 
-
-![Image containing example of responsiveness within several screens](assets/images/responsive.png)
-
-
-
 Due to having a few large images on the site which took long to load and for the purpose of improving user experience, I have compressed the images using [tinypng.com](https://tinypng.com/) 
 Total reduction in image size has been 53% (7MB).
 
@@ -66,19 +76,19 @@ Total reduction in image size has been 53% (7MB).
 
 
 
-## Wireframe
+## Wireframe <a name="wireframe"></a>
 
 The wireframe was designed using [Microsoft Paint](https://jspaint.app/)
 I created two wireframes for each html page, one for the mobile view and another for the desktop view. 
 I didn't want to change the design for the different pages unless it was totally necessary becuse of viewing limitations so I stuck to the same structure as much as possible.
 
-Below is a link to all my wireframes:
+* Below is a link to all my wireframes:
 
 [wireframes for MS1 PawSome](https://github.com/maxnyla/Pawsome/tree/master/assets/wireframes)
 
 
 
-## Visual Identity
+## Visual Identity <a name="visualidentity"></a>
 
 - [LogoMakr](https://logomakr.com/) was used for the logo design. 
     For the logo, I wanted to use an image of a dog but make it a friendly, cartoon-like character to give the page a playful flair.
@@ -94,7 +104,7 @@ I also wanted to keep the site visual identity unified by using the same header 
 This is due to the fact that the magenta colour used on the other pages does not look bright or distinguishable enough over the background photo and I liked the effect of the white text better.
 
 
-### Site overview
+### Site overview <a name="siteoverview"></a>
 
 Below are a series of images showing an overview of the site:
 
@@ -119,7 +129,7 @@ Below are a series of images showing an overview of the site:
 
 
 
-## User Stories
+## User Stories <a name="userstories"></a>
 
 
 **Users:**
@@ -145,39 +155,12 @@ as well as the areas covered.
 - As a business owner, it's important to me that any user or potential customer viewing the site has the best experience and is able to easily access all the relevant sections with one click.
 
 
-
-## Testing
+## Testing <a name="testing"></a>
 
 This website has been tested through the GTMetrix site, [GTmetrix](https://gtmetrix.com/reports/maxnyla.github.io/EKEXs42Q).
 Below is a screenshot of the results achieved. Page speed score was 94% and the time to fully load the site was 1.7s.
 
 ![Website Speed Test Results](assets/images/speed_test.png)
-
-
-
-### Deployment and Demo
-
-**Deployment**
-
-This website has been deployed to GitHub Pages as [PawSome](https://maxnyla.github.io/Pawsome)
-
-The process for deployment is documented below:
-
-- Log into [GitHub](https://www.github.com)
-
-- Access the page with the repository for this project (https://github.com/maxnyla/Pawsome)
-
-- Click on 'Settings' on the main menu over the file listing
-
-- Navigate down to 'GitHub Pages'
-
-- Select 'Branch: Master' from the menu
-
-- This generates a live link for the website, which is now viewable publicly
-
-
-![Deployment](assets/site_overview/deployment.png)
-
 
 
 **Demo/Testing**
@@ -205,7 +188,32 @@ All my attempts to fix this have failed because if I resolved the overflow probl
 In other instances, I have simply changed things around because I thought that they looked nicer or worked better.
 
 
-### Code validation
+
+## Deployment <a name="deployment"></a>
+
+**Deployment**
+
+This website has been deployed to GitHub Pages as [PawSome](https://maxnyla.github.io/Pawsome)
+
+The process for deployment is documented below:
+
+- Log into [GitHub](https://www.github.com)
+
+- Access the page with the repository for this project (https://github.com/maxnyla/Pawsome)
+
+- Click on 'Settings' on the main menu over the file listing
+
+- Navigate down to 'GitHub Pages'
+
+- Select 'Branch: Master' from the menu
+
+- This generates a live link for the website, which is now viewable publicly
+
+
+![Deployment](assets/site_overview/deployment.png)
+
+
+### Code validation <a name="codevalidation"></a>
 
 I ran all my code through the  [W3C Markup Validation Service](https://validator.w3.org) and the [CSS Validation Service](https://jigsaw.w3.org/css-validator)
 
@@ -225,7 +233,7 @@ Links to the results of the last validation completed can be found below:
 
 
 
-## Technologies
+## Technologies <a name="technologies"></a>
 
 Technologies used on this project are basically [HTML5](https://en.wikipedia.org/wiki/HTML5) and [CSS3](https://en.wikipedia.org/wiki/CSS) for the build, in addition to which I have used the below.
 
@@ -263,7 +271,7 @@ I must also mention the Chrome Developer Tools, as I have used them extensively 
 
 
 
-## Media
+## Media <a name="media"></a>
 
 I have taken advantage of several useful resources for images and my logo. Please see below:
 
@@ -284,7 +292,7 @@ I have taken advantage of several useful resources for images and my logo. Pleas
 
 
 
-## Acknowledgements and thanks
+## Acknowledgements and thanks <a name="acknowledgements"></a>
 
 I would like to mention all the different resources and sites that are out there, with their respective communities, which have been a huge help for me. 
 I will list some of them below:
