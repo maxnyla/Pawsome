@@ -250,8 +250,6 @@ a:hover {
 	color: #242c10;
 }
 
-.prices-modal-header {}
-
 .prices-modalheader {
 	text-transform: uppercase;
 }
@@ -747,7 +745,12 @@ button {
 	.menu-walking,
 	.menu-boarding {
 		margin-top: 1.3em;
+        padding-top: 0.8em;
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-botom: .8em;
 	}
+
 	.servicemenucontainer {
 		margin-top: 2em;
 	}
