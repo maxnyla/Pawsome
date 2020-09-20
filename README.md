@@ -6,7 +6,7 @@ alt="PawSome logo"/>
 
 ![Image containing example of responsiveness within several screens](assets/images/responsive.png)
 
-# Table of Contents <a name="home"></a>
+# Table of Contents :house: <a name="home"></a>
 1. [Introduction](#introduction)
 2. [UX](#ux)
 3. [Wireframe](#wireframe)
@@ -75,7 +75,7 @@ Total reduction in image size has been 53% (7MB).
 ![tinypng image size saving results](assets/images/compression_results.png)
 
 
-:house:[ Table of Contents](#home)
+:house:[ Back to Table of Contents](#home)
 
 
 ## Wireframe <a name="wireframe"></a>
@@ -89,7 +89,7 @@ I didn't want to change the design for the different pages unless it was totally
 [wireframes for MS1 PawSome](https://github.com/maxnyla/Pawsome/tree/master/assets/wireframes)
 
 
-:house:[ Table of Contents](#home)
+:house:[ Back to Table of Contents](#home)
 
 
 ## Visual Identity <a name="visualidentity"></a>
@@ -108,7 +108,7 @@ I also wanted to keep the site visual identity unified by using the same header 
 This is due to the fact that the magenta colour used on the other pages does not look bright or distinguishable enough over the background photo and I liked the effect of the white text better.
 
 
-:house:[ Table of Contents](#home)
+:house:[ Back to Table of Contents](#home)
 
 
 ### Site overview <a name="siteoverview"></a>
@@ -135,7 +135,7 @@ Below are a series of images showing an overview of the site:
 
 
 
-:house:[ Table of Contents](#home)
+:house:[ Back to Table of Contents](#home)
 
 
 ## User Stories <a name="userstories"></a>
@@ -164,7 +164,7 @@ as well as the areas covered.
 - As a business owner, it's important to me that any user or potential customer viewing the site has the best experience and is able to easily access all the relevant sections with one click.
 
 
-:house:[ Table of Contents](#home)
+:house:[ Back to Table of Contents](#home)
 
 
 ## Testing <a name="testing"></a>
@@ -225,7 +225,7 @@ The process for deployment is documented below:
 ![Deployment](assets/site_overview/deployment.png)
 
 
-:house:[ Table of Contents](#home)
+:house:[ Back to Table of Contents](#home)
 
 
 ### Code validation <a name="codevalidation"></a>
@@ -285,7 +285,7 @@ Technologies used on this project are basically [HTML5](https://en.wikipedia.org
 I must also mention the Chrome Developer Tools, as I have used them extensively throughout the project. They have been very useful for each change that I made, and to double-check my ideas before implementing them.
 
 
-:house:[ Table of Contents](#home)
+:house:[ Back to Table of Contents](#home)
 
 
 ## Media <a name="media"></a>
@@ -328,4 +328,4 @@ And lastly, I could not leave out the Code Institute team: the other students on
 and of course my mentor Felipe Souza Alarcon for all his help and ideas during this project, and his flexibility and availability. 
 
 
-:house:[ Table of Contents](#home)
+:house:[ Back to Table of Contents](#home)
