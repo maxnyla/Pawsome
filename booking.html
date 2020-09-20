@@ -73,21 +73,20 @@
                   <div class="col-xs-9">
                      <div class="form-section bookingform-section">
                         <!-- Form idea borrowed from https://www.w3docs.com/tools/editor/5943 -->
-                         <!---I was told that I do not need this for MS1 so I have removed it: action="https://formdump.codeinstitute.net/" method="POST"-->
-                        <form>
+                         <form action="https://formdump.codeinstitute.net/" method="POST">
                         <div class="banner">
                               <h1 class="bookingform-wrapper">Book PawSome</h1>
                            </div>
                            <div class="item">
                               <p>Date</p>
                               <input type="date" 
-                                 name="date" />
+                                 name="date" required />
                               <i class="fas fa-calendar-alt mt-3 mr-3"></i>
                            </div>
                            <div class="item">
                               <p>Time</p>
                               <input type="time" 
-                                 name="time" />
+                                 name="time"  required/>
                               <i class="fas fa-clock mt-3 mr-3"></i>
                            </div>
                            <div class="item">
@@ -107,17 +106,17 @@
                            <div class="item">
                               <p>Contact details</p>
                               <div class="name-item">
-                                 <input type="text" name="name" placeholder="First name" />
-                                 <input type="text" name="name" placeholder="Last name" />
+                                 <input type="text" name="name" placeholder="First name" required />
+                                 <input type="text" name="name" placeholder="Last name" required />
                               </div>
                            </div>
                            <div class="item">
                               <p>Contact Email</p>
-                              <input type="text" name="email" placeholder="Email address" />
+                              <input type="text" name="email" placeholder="Email address" required />
                            </div>
                            <div class="item">
                               <p>Contact Number</p>
-                              <input type="text" name="number" placeholder="Telephone number" />
+                              <input type="text" name="number" placeholder="Telephone number" required />
                            </div>
                            <div class="btn-block">
                               <button class="btn--booking" type="submit">SEND</button>
@@ -155,7 +154,7 @@
                      <form>
                         <h6 class="footerheader"><strong>Subscribe to our news</strong></h6>
                         <div class="input-group">
-                           <input type="email" class="form-control newsletter" placeholder="Email address">
+                           <input type="email" class="form-control newsletter" placeholder="Email address" required>
                            <span class="input-group-btn btn--footer">
                            <button class="btn btn-small no-border-radius btn--footer" type="submit">Keep in touch!</button>
                            </span>
