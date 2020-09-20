@@ -38,9 +38,10 @@
 .mymaincontainer {
 	background: url("../images/newmain.jpg") no-repeat center center fixed;
 	background-size: cover;
-	min-height: 100vh;
 	display: flex;
 	justify-content: center;
+    height: 45em;
+    /*min-height: 100vh;*/
 }
 
 
